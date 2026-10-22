@@ -385,6 +385,73 @@ def check_invalid_customer_phones(df: pd.DataFrame) -> None:
     else:
         print("No invalid customer phone numbers found.")
 
+def check_null_duration_calls(df: pd.DataFrame) -> None:
+
+    columns_to_check = [
+        "wait_seconds",
+        "hold_seconds",
+        "handle_seconds",
+        "after_call_work_seconds",
+    ]
+
+    print("\nCALLS WITH NULL DURATIONS")
+    print("=" * 50)
+
+    required_columns = ["call_id", "status"] + columns_to_check
+
+    missing_columns = [
+        column for column in required_columns
+        if column not in df.columns
+    ]
+
+    if missing_columns:
+        print(f"Missing columns: {missing_columns}")
+        return
+
+    null_mask = df[columns_to_check].isna().any(axis=1)
+
+    result = df.loc[
+        null_mask,
+        ["call_id", "status"] + columns_to_check,
+    ]
+
+    if result.empty:
+        print("No calls found with NULL duration values.")
+        return
+
+    print(result.to_string(index=False))
+def check_duplicate_customer_phones(df: pd.DataFrame) -> None:
+
+    print("\nDUPLICATE CUSTOMER PHONE NUMBERS")
+    print("=" * 50)
+
+    if "customer_phone" not in df.columns or "call_id" not in df.columns:
+        print("Required columns were not found.")
+        return
+
+    duplicate_mask = (
+        df["customer_phone"].notna()
+        & df["customer_phone"].duplicated(keep=False)
+    )
+
+    duplicates = (
+        df.loc[duplicate_mask, ["customer_phone", "call_id"]]
+        .sort_values("customer_phone")
+    )
+
+    if duplicates.empty:
+        print("No duplicate customer phone numbers found.")
+        return
+
+    print(
+        tabulate(
+            duplicates.values.tolist(),
+            headers=["Customer Phone", "Call ID"],
+            tablefmt="grid",
+            showindex=False,
+        )
+    )
+
 def main() -> None:
 
     df = load_csv(CSV_PATH)
@@ -398,6 +465,8 @@ def main() -> None:
     check_negative_values(df)
     check_invalid_call_dates(df)
     check_invalid_customer_phones(df)
+    check_null_duration_calls(df)
+    check_duplicate_customer_phones(df)
 
 if __name__ == "__main__":
     main()
