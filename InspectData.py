@@ -1,8 +1,13 @@
 from pathlib import Path
 import re
+
 import pandas as pd
 from tabulate import tabulate
 
+
+# ==================================================
+# Paths
+# ==================================================
 
 BASE_DIR = Path(__file__).resolve().parent
 
@@ -12,6 +17,10 @@ CSV_PATH = (
     / "call_center_1000_with_reason_phone.csv"
 )
 
+
+# ==================================================
+# Column Descriptions
+# ==================================================
 
 COLUMN_DESCRIPTIONS = {
     "call_id": "Unique identifier of each call",
@@ -35,17 +44,86 @@ COLUMN_DESCRIPTIONS = {
 }
 
 
+# ==================================================
+# Load Data
+# ==================================================
+
 def load_csv(file_path: Path) -> pd.DataFrame:
+    """Load the source CSV file."""
 
     if not file_path.is_file():
         raise FileNotFoundError(
             f"CSV file not found: {file_path}"
         )
 
-    return pd.read_csv(file_path)
+    # Keep phone numbers as strings to preserve leading zeros.
+    return pd.read_csv(
+        file_path,
+        dtype={"customer_phone": "string"},
+    )
 
+
+# ==================================================
+# Customer Phone Helpers
+# ==================================================
+
+def split_customer_phones(value) -> list[str]:
+    """Split a cell containing multiple phone numbers."""
+
+    if pd.isna(value) or not str(value).strip():
+        return []
+
+    phones = re.split(
+        r"[,;|،\r\n]+",
+        str(value).strip(),
+    )
+
+    return [
+        phone.strip()
+        for phone in phones
+        if phone.strip()
+    ]
+
+
+def normalize_customer_phone(value):
+    """
+    Normalize a phone number for comparison.
+
+    1. Keep the first phone number.
+    2. Remove non-digit characters.
+    3. Remove the country prefix 98 or local prefix 0.
+
+    No phone-length validation is performed.
+    """
+
+    phones = split_customer_phones(value)
+
+    if not phones:
+        return pd.NA
+
+    phone = phones[0]
+
+    # Remove spaces, + signs, and other non-digit characters.
+    digits = re.sub(r"\D", "", phone)
+
+    # Remove the country prefix 98 or the local prefix 0.
+    if digits.startswith("98"):
+        digits = digits[2:]
+    elif digits.startswith("0"):
+        digits = digits[1:]
+
+    if not digits:
+        return pd.NA
+
+    return digits
+
+
+# ==================================================
+# Dataset Report
+# ==================================================
 
 def print_column_dictionary(df: pd.DataFrame) -> None:
+    """Display column names, data types, missing values, and descriptions."""
 
     column_info = pd.DataFrame(
         [
@@ -89,6 +167,11 @@ def print_dataset_report(df: pd.DataFrame) -> None:
 
     print_column_dictionary(df)
 
+
+# ==================================================
+# Categorical Values
+# ==================================================
+
 def print_status_values(df: pd.DataFrame) -> None:
 
     print("\nAVAILABLE STATUS VALUES")
@@ -113,6 +196,8 @@ def print_status_values(df: pd.DataFrame) -> None:
             showindex=False,
         )
     )
+
+
 def print_channel_values(df: pd.DataFrame) -> None:
 
     print("\nAVAILABLE CHANNEL VALUES")
@@ -136,6 +221,8 @@ def print_channel_values(df: pd.DataFrame) -> None:
             showindex=False,
         )
     )
+
+
 def print_call_reason_values(df: pd.DataFrame) -> None:
 
     print("\nAVAILABLE CALL REASON VALUES")
@@ -159,6 +246,8 @@ def print_call_reason_values(df: pd.DataFrame) -> None:
             showindex=False,
         )
     )
+
+
 def print_queue_values(df: pd.DataFrame) -> None:
 
     print("\nAVAILABLE QUEUE VALUES")
@@ -182,6 +271,12 @@ def print_queue_values(df: pd.DataFrame) -> None:
             showindex=False,
         )
     )
+
+
+# ==================================================
+# Agents by Queue
+# ==================================================
+
 def print_agents_by_queue(df: pd.DataFrame) -> None:
 
     print("\nAGENTS BY QUEUE")
@@ -194,7 +289,11 @@ def print_agents_by_queue(df: pd.DataFrame) -> None:
     agent_queue = (
         df.dropna(subset=["agent_id"])
         .groupby("queue", dropna=False)["agent_id"]
-        .agg(lambda agents: ", ".join(sorted(agents.astype(str).unique())))
+        .agg(
+            lambda agents: ", ".join(
+                sorted(agents.astype(str).unique())
+            )
+        )
         .reset_index(name="Agent IDs")
     )
 
@@ -206,22 +305,47 @@ def print_agents_by_queue(df: pd.DataFrame) -> None:
             showindex=False,
         )
     )
+
+
+# ==================================================
+# Start Time Validation
+# ==================================================
+
 def check_invalid_start_times(df: pd.DataFrame) -> None:
 
     print("\nINVALID START TIMES")
     print("=" * 40)
 
+    required_columns = ["call_id", "start_time"]
+
+    if not all(column in df.columns for column in required_columns):
+        print("Required columns were not found.")
+        return
+
+    # Accept H:MM:SS or HH:MM:SS, with a valid 24-hour time.
     time_pattern = r"(?:[01]?\d|2[0-3]):[0-5]\d:[0-5]\d"
 
-    invalid_time = ~df["start_time"].astype("string").str.strip().str.fullmatch(
-        time_pattern,
-        na=False
+    invalid_time = ~(
+        df["start_time"]
+        .astype("string")
+        .str.strip()
+        .str.fullmatch(time_pattern, na=False)
     )
 
-    invalid_calls = df.loc[invalid_time, ["call_id", "start_time"]]
+    invalid_calls = df.loc[
+        invalid_time,
+        ["call_id", "start_time"],
+    ]
 
-    print(invalid_calls.to_string(index=False))
+    if invalid_calls.empty:
+        print("No invalid start times found.")
+    else:
+        print(invalid_calls.to_string(index=False))
 
+
+# ==================================================
+# Negative Values Validation
+# ==================================================
 
 def check_negative_values(df: pd.DataFrame) -> None:
 
@@ -245,10 +369,15 @@ def check_negative_values(df: pd.DataFrame) -> None:
             print(f"Column '{column}' was not found.")
             continue
 
-        numeric_values = pd.to_numeric(df[column], errors="coerce")
+        numeric_values = pd.to_numeric(
+            df[column],
+            errors="coerce",
+        )
+
         invalid_mask = numeric_values < 0
 
         if invalid_mask.any():
+
             column_results = (
                 df.loc[invalid_mask, ["call_id", column]]
                 .rename(columns={column: "Value"})
@@ -256,10 +385,14 @@ def check_negative_values(df: pd.DataFrame) -> None:
             )
 
             column_results.insert(1, "Column", column)
+
             negative_values.append(column_results)
 
     if negative_values:
-        result = pd.concat(negative_values, ignore_index=True)
+        result = pd.concat(
+            negative_values,
+            ignore_index=True,
+        )
 
         print(
             tabulate(
@@ -272,110 +405,123 @@ def check_negative_values(df: pd.DataFrame) -> None:
     else:
         print("No negative values found.")
 
+
+# ==================================================
+# Call Date Validation
+# ==================================================
+
 def check_invalid_call_dates(df: pd.DataFrame) -> None:
 
     print("\nINVALID CALL DATES")
     print("=" * 40)
 
-    date_values = df["call_date"].astype("string").str.strip()
+    required_columns = ["call_id", "call_date"]
 
-    # Expected format: M/D/YYYY or MM/DD/YYYY
-    valid_format = date_values.str.fullmatch(
-        r"\d{1,2}/\d{1,2}/\d{4}",
-        na=False
+    if not all(column in df.columns for column in required_columns):
+        print("Required columns were not found.")
+        return
+
+    date_values = (
+        df["call_date"]
+        .astype("string")
+        .str.strip()
     )
 
-    # Check both format and actual calendar date
+    # Expected format: M/D/YYYY or MM/DD/YYYY.
+    valid_format = date_values.str.fullmatch(
+        r"\d{1,2}/\d{1,2}/\d{4}",
+        na=False,
+    )
+
+    # Check both the format and the actual calendar date.
     parsed_dates = pd.to_datetime(
         date_values.where(valid_format),
         format="%m/%d/%Y",
-        errors="coerce"
+        errors="coerce",
     )
 
     invalid_mask = parsed_dates.isna()
 
     invalid_dates = df.loc[
         invalid_mask,
-        ["call_id", "call_date"]
+        ["call_id", "call_date"],
     ]
 
     if invalid_dates.empty:
         print("No invalid call dates found.")
     else:
         print(invalid_dates.to_string(index=False))
+
+
+# ==================================================
+# Customer Phone Prefix and Multiple Number Check
+# ==================================================
+
 def check_invalid_customer_phones(df: pd.DataFrame) -> None:
 
-    print("\nINVALID CUSTOMER PHONE NUMBERS")
-    print("=" * 50)
+    print("\nCUSTOMER PHONE PREFIX AND MULTIPLE NUMBER CHECK")
+    print("=" * 80)
 
-    if "customer_phone" not in df.columns or "call_id" not in df.columns:
-        print("Required columns 'customer_phone' or 'call_id' were not found.")
+    required_columns = ["call_id", "customer_phone"]
+
+    if not all(column in df.columns for column in required_columns):
+        print("Required columns were not found.")
         return
 
-    phone_pattern = re.compile(r"(?<!\d)(?:98)?9\d{8}(?!\d)")
-
-    invalid_phones = []
+    phone_issues = []
 
     for row_number, (_, row) in enumerate(df.iterrows(), start=2):
 
         value = row["customer_phone"]
+        phones = split_customer_phones(value)
 
-        if pd.isna(value) or not str(value).strip():
-            invalid_phones.append([
-                row_number,
-                row["call_id"],
-                value,
-                "Missing phone number",
-            ])
+        # Only check prefixes and multiple phone numbers.
+        # Phone length is deliberately not validated.
+        if not phones:
             continue
 
-        raw_phone = str(value).strip()
-        digits = re.sub(r"\D", "", raw_phone)
-
-        phone_matches = phone_pattern.findall(raw_phone)
         issues = []
 
-        if len(phone_matches) > 1:
+        if len(phones) > 1:
             issues.append(
-                f"Multiple phone numbers found: {len(phone_matches)}"
+                f"Multiple phone numbers found: {len(phones)}"
             )
 
-            if any(phone.startswith("98") and len(phone) == 11
-                   for phone in phone_matches):
-                issues.append("98 prefix detected")
+        # Inspect prefixes in all phone numbers in this cell.
+        for phone_number, phone in enumerate(phones, start=1):
 
-        elif (
-            len(digits) == 11
-            and digits.startswith("98")
-            and re.fullmatch(r"9\d{8}", digits[2:])
-        ):
-            issues.append("98 prefix detected; expected 9 digits")
+            digits = re.sub(r"\D", "", phone)
 
-        elif len(digits) != 9:
-            issues.append(f"Invalid length: {len(digits)} digits; expected 9")
+            if digits.startswith("98"):
+                issues.append(
+                    f"Phone {phone_number}: country prefix 98/+98 detected"
+                )
 
-        elif not re.fullmatch(r"9\d{8}", digits):
-            issues.append("Invalid mobile number format")
-
-        elif raw_phone != digits:
-            issues.append("Invalid format; expected digits only")
+            elif digits.startswith("0"):
+                issues.append(
+                    f"Phone {phone_number}: local prefix 0 detected"
+                )
 
         if issues:
-            invalid_phones.append([
-                row_number,
-                row["call_id"],
-                raw_phone,
-                "; ".join(issues),
-            ])
+            phone_issues.append(
+                [
+                    row_number,
+                    row["call_id"],
+                    value,
+                    normalize_customer_phone(value),
+                    "; ".join(issues),
+                ]
+            )
 
-    if invalid_phones:
+    if phone_issues:
         print(
             tabulate(
-                invalid_phones,
+                phone_issues,
                 headers=[
                     "CSV Row",
                     "Call ID",
                     "Customer Phone",
+                    "Normalized First Phone",
                     "Issue",
                 ],
                 tablefmt="grid",
@@ -383,7 +529,12 @@ def check_invalid_customer_phones(df: pd.DataFrame) -> None:
             )
         )
     else:
-        print("No invalid customer phone numbers found.")
+        print("No phone prefixes or multiple phone numbers found.")
+
+
+# ==================================================
+# NULL Duration Validation
+# ==================================================
 
 def check_null_duration_calls(df: pd.DataFrame) -> None:
 
@@ -400,7 +551,8 @@ def check_null_duration_calls(df: pd.DataFrame) -> None:
     required_columns = ["call_id", "status"] + columns_to_check
 
     missing_columns = [
-        column for column in required_columns
+        column
+        for column in required_columns
         if column not in df.columns
     ]
 
@@ -420,53 +572,63 @@ def check_null_duration_calls(df: pd.DataFrame) -> None:
         return
 
     print(result.to_string(index=False))
-def check_duplicate_customer_phones(df: pd.DataFrame) -> None:
 
-    print("\nDUPLICATE CUSTOMER PHONE NUMBERS")
+
+def check_duplicate_call_ids(df: pd.DataFrame) -> None:
+
+    print("\nDUPLICATE CALL IDS")
     print("=" * 50)
 
-    if "customer_phone" not in df.columns or "call_id" not in df.columns:
-        print("Required columns were not found.")
+    if "call_id" not in df.columns:
+        print("Column 'call_id' was not found.")
         return
 
-    duplicate_mask = (
-        df["customer_phone"].notna()
-        & df["customer_phone"].duplicated(keep=False)
+    duplicate_ids = (
+        df.loc[
+            df["call_id"].notna()
+            & df["call_id"].duplicated(keep=False),
+            "call_id",
+        ]
+        .value_counts()
+        .rename_axis("Call ID")
+        .reset_index(name="Count")
     )
 
-    duplicates = (
-        df.loc[duplicate_mask, ["customer_phone", "call_id"]]
-        .sort_values("customer_phone")
-    )
-
-    if duplicates.empty:
-        print("No duplicate customer phone numbers found.")
+    if duplicate_ids.empty:
+        print("No duplicate call IDs found.")
         return
 
     print(
         tabulate(
-            duplicates.values.tolist(),
-            headers=["Customer Phone", "Call ID"],
+            duplicate_ids.values.tolist(),
+            headers=duplicate_ids.columns.tolist(),
             tablefmt="grid",
             showindex=False,
         )
     )
 
+# ==================================================
+# Main
+# ==================================================
+
 def main() -> None:
 
     df = load_csv(CSV_PATH)
+
     print_dataset_report(df)
+
     print_status_values(df)
     print_channel_values(df)
     print_call_reason_values(df)
     print_queue_values(df)
     print_agents_by_queue(df)
+
     check_invalid_start_times(df)
     check_negative_values(df)
     check_invalid_call_dates(df)
     check_invalid_customer_phones(df)
     check_null_duration_calls(df)
-    check_duplicate_customer_phones(df)
+    check_duplicate_call_ids(df)
 
 if __name__ == "__main__":
     main()
