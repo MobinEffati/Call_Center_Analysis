@@ -166,22 +166,20 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     df["hold_seconds"] = df["hold_seconds"].abs()
 
     # --------------------------------------------------
-    # 5. Replace NULL csat_score values with 0
+    # 5. Replace NULL csat_score values with 3
     # --------------------------------------------------
 
     df["csat_score"] = (
         pd.to_numeric(df["csat_score"], errors="raise")
-        .fillna(0)
+        .fillna(3)
     )
 
     # --------------------------------------------------
-    # 6. Replace NULL first_contact_resolution values with 0
+    # 6. Replace NULL first_contact_resolution values with No
     # --------------------------------------------------
-
     df["first_contact_resolution"] = (
         df["first_contact_resolution"]
-        .astype("object")
-        .fillna(0)
+        .fillna("No")
     )
 
     # --------------------------------------------------
