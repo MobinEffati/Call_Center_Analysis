@@ -6,3 +6,6 @@ pydantic
 pytest
 httpx
 tabulate
+streamlit
+plotly
+requests
