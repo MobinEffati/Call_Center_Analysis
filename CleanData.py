@@ -171,7 +171,7 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
 
     df["csat_score"] = (
         pd.to_numeric(df["csat_score"], errors="raise")
-        .fillna(3)
+        .fillna(0)
     )
 
     # --------------------------------------------------

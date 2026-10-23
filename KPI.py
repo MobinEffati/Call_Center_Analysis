@@ -285,7 +285,10 @@ def _calculate_kpis_prepared(df: pd.DataFrame) -> dict:
         errors="coerce",
     )
 
-    average_csat = safe_mean(csat_values)
+    # CSAT is calculated only for answered/transferred calls with a positive score.
+    # Abandoned calls are excluded even if CleanData.py filled their missing score with 3.
+    csat_eligible_mask = handled_mask & csat_values.gt(0)
+    average_csat = safe_mean(csat_values.loc[csat_eligible_mask])
 
     # --------------------------------------------------
     # 6. First Contact Resolution (FCR)

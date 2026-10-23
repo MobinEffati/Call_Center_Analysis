@@ -1,6 +1,6 @@
 call_id,call_date,start_time,customer_phone,call_reason,agent_id,queue,channel,status,wait_seconds,handle_seconds,hold_seconds,after_call_work_seconds,csat_score,first_contact_resolution,transfer_count
 C0001,1/1/2026,18:46:03,912001304,Account Access,A06,Billing,Phone,Answered,84,187.0,24.0,62.0,3.0,No,0
-C0002,1/1/2026,15:07:48,912000398,Order Status,A07,Sales,Phone,Abandoned,88,0.0,0.0,0.0,3.0,No,0
+C0002,1/1/2026,15:07:48,912000398,Order Status,A07,Sales,Phone,Abandoned,88,0.0,0.0,0.0,0.0,No,0
 C0003,1/1/2026,16:41:35,912000387,Account Access,A12,Sales,Callback,Answered,39,219.0,48.0,42.0,4.0,No,0
 C0004,1/1/2026,14:09:47,912000550,Technical Problem,A12,Support,Phone,Answered,141,396.0,48.0,30.0,4.0,Yes,0
 C0005,1/1/2026,15:05:56,912000598,Product Inquiry,A10,Sales,Phone,Answered,33,253.0,59.0,51.0,3.0,Yes,0
@@ -13,8 +13,8 @@ C0011,1/1/2026,17:15:06,912000214,Technical Problem,A10,Sales,Phone,Answered,88,
 C0012,1/1/2026,15:43:59,912001182,Billing Issue,A10,Billing,Phone,Answered,74,216.0,13.0,50.0,3.0,Yes,0
 C0013,1/1/2026,8:32:04,912000790,Account Access,A01,Support,Phone,Answered,106,299.0,16.0,59.0,3.0,Yes,0
 C0014,1/1/2026,19:47:57,912000761,Complaint,A10,Sales,Callback,Answered,59,261.0,69.0,29.0,5.0,Yes,2
-C0015,1/1/2026,17:45:05,912000511,Account Access,A04,Support,Phone,Abandoned,152,0.0,0.0,0.0,3.0,No,0
-C0016,1/1/2026,15:10:23,912000445,Account Access,A07,Support,Phone,Abandoned,185,40.0,0.0,0.0,3.0,No,0
+C0015,1/1/2026,17:45:05,912000511,Account Access,A04,Support,Phone,Abandoned,152,0.0,0.0,0.0,0.0,No,0
+C0016,1/1/2026,15:10:23,912000445,Account Access,A07,Support,Phone,Abandoned,185,40.0,0.0,0.0,0.0,No,0
 C0017,1/1/2026,8:40:41,912000706,Refund Request,A01,Support,Phone,Answered,106,344.0,24.0,41.0,5.0,Yes,0
 C0018,1/1/2026,12:41:44,912001008,Account Access,A12,Support,Phone,Transferred,136,376.0,47.0,72.0,5.0,Yes,0
 C0019,1/1/2026,19:58:33,912000786,Account Access,A09,Sales,Phone,Answered,33,219.0,28.0,33.0,3.0,No,0
@@ -31,7 +31,7 @@ C0029,1/1/2026,8:55:30,912000134,Account Access,A06,Sales,Phone,Answered,11,231.
 C0030,1/1/2026,16:48:21,912000316,Subscription Change,A06,Sales,Phone,Answered,21,258.0,66.0,60.0,5.0,Yes,0
 C0031,1/1/2026,19:02:18,912000347,Order Status,A01,Sales,Phone,Answered,29,271.0,55.0,72.0,5.0,Yes,0
 C0032,1/1/2026,10:22:55,912000374,Subscription Change,A06,Billing,Callback,Answered,67,215.0,56.0,67.0,3.0,No,0
-C0033,1/1/2026,10:44:31,912000295,Product Inquiry,A05,Support,Phone,Abandoned,163,0.0,0.0,0.0,3.0,No,0
+C0033,1/1/2026,10:44:31,912000295,Product Inquiry,A05,Support,Phone,Abandoned,163,0.0,0.0,0.0,0.0,No,0
 C0034,1/2/2026,14:27:38,912001442,Complaint,A05,Billing,Phone,Answered,30,201.0,42.0,39.0,3.0,Yes,0
 C0035,1/2/2026,14:28:02,912000527,Technical Problem,A10,Support,Callback,Transferred,135,482.0,12.0,24.0,3.0,Yes,0
 C0036,1/2/2026,17:10:01,912001213,Product Inquiry,A08,Sales,Phone,Answered,31,233.0,51.0,44.0,3.0,Yes,2
@@ -44,7 +44,7 @@ C0042,1/2/2026,9:20:41,912000877,Product Inquiry,A09,Sales,Phone,Answered,66,281
 C0043,1/2/2026,18:53:07,912001410,Technical Problem,A03,Support,Phone,Answered,177,368.0,71.0,38.0,3.0,Yes,2
 C0044,1/2/2026,15:08:40,912000435,Technical Problem,A09,Support,Phone,Answered,145,428.0,24.0,30.0,3.0,Yes,0
 C0045,1/2/2026,18:36:02,912001009,Product Inquiry,A01,Billing,Phone,Transferred,53,243.0,31.0,69.0,1.0,Yes,0
-C0046,1/2/2026,18:34:18,912001169,Subscription Change,A04,Support,Phone,Abandoned,179,0.0,0.0,0.0,3.0,No,0
+C0046,1/2/2026,18:34:18,912001169,Subscription Change,A04,Support,Phone,Abandoned,179,0.0,0.0,0.0,0.0,No,0
 C0047,1/2/2026,11:04:44,912000392,Order Status,A08,Sales,Phone,Answered,60,176.0,45.0,75.0,5.0,Yes,0
 C0048,1/2/2026,19:08:48,912000298,Technical Problem,A06,Support,Phone,Answered,85,348.0,62.0,35.0,5.0,Yes,0
 C0049,1/2/2026,18:26:15,912000158,Account Access,A06,Billing,Callback,Transferred,60,184.0,25.0,51.0,5.0,Yes,2
@@ -54,13 +54,13 @@ C0052,1/2/2026,9:32:28,912000880,Billing Issue,A10,Billing,Phone,Answered,49,172
 C0053,1/2/2026,17:12:38,912000183,Billing Issue,A01,Support,Phone,Answered,161,365.0,65.0,53.0,3.0,Yes,0
 C0054,1/2/2026,12:39:20,912001358,Product Inquiry,A12,Sales,Callback,Answered,68,276.0,67.0,65.0,1.0,Yes,0
 C0055,1/2/2026,12:07:26,912000514,Product Inquiry,A12,Support,Phone,Transferred,160,432.0,65.0,36.0,4.0,No,2
-C0056,1/2/2026,15:46:03,912001230,Technical Problem,A11,Support,Phone,Abandoned,169,0.0,0.0,0.0,3.0,No,0
+C0056,1/2/2026,15:46:03,912001230,Technical Problem,A11,Support,Phone,Abandoned,169,0.0,0.0,0.0,0.0,No,0
 C0057,1/2/2026,18:09:52,912000375,Account Access,A12,Support,Phone,Answered,96,360.0,58.0,29.0,3.0,Yes,0
 C0058,1/2/2026,16:30:55,912001142,Account Access,A12,Billing,Phone,Answered,73,201.0,66.0,53.0,4.0,No,0
 C0059,1/2/2026,15:34:22,912000308,Technical Problem,A11,Support,Callback,Answered,158,347.0,66.0,32.0,2.0,Yes,2
 C0060,1/2/2026,19:19:49,912000928,Complaint,A12,Sales,Phone,Answered,61,283.0,40.0,38.0,4.0,Yes,0
 C0061,1/2/2026,19:52:22,912000492,Account Access,A05,Billing,Callback,Answered,30,204.0,61.0,61.0,3.0,Yes,0
-C0062,1/2/2026,15:59:35,912001320,Account Access,A10,Support,Phone,Abandoned,117,0.0,0.0,0.0,3.0,No,0
+C0062,1/2/2026,15:59:35,912001320,Account Access,A10,Support,Phone,Abandoned,117,0.0,0.0,0.0,0.0,No,0
 C0063,1/2/2026,8:57:33,912000723,Complaint,A02,Sales,Phone,Answered,55,260.0,17.0,63.0,4.0,Yes,1
 C0064,1/2/2026,18:26:41,912001402,Subscription Change,A08,Billing,Callback,Answered,76,196.0,12.0,69.0,4.0,Yes,0
 C0065,1/2/2026,17:59:02,912000099,Refund Request,A03,Billing,Phone,Transferred,46,260.0,68.0,31.0,5.0,No,2
@@ -72,7 +72,7 @@ C0070,1/3/2026,16:59:57,912000609,Technical Problem,A12,Billing,Phone,Answered,7
 C0071,1/3/2026,19:23:26,912001332,Complaint,A09,Support,Callback,Answered,167,343.0,15.0,53.0,1.0,Yes,0
 C0072,1/3/2026,15:03:53,912000846,Complaint,A10,Support,Phone,Answered,111,498.0,71.0,48.0,3.0,Yes,0
 C0073,1/3/2026,9:32:28,912000548,Order Status,A09,Billing,Phone,Answered,27,231.0,64.0,63.0,4.0,Yes,1
-C0074,1/3/2026,17:47:13,912000360,Technical Problem,A06,Support,Phone,Abandoned,139,0.0,0.0,0.0,3.0,No,0
+C0074,1/3/2026,17:47:13,912000360,Technical Problem,A06,Support,Phone,Abandoned,139,0.0,0.0,0.0,0.0,No,0
 C0075,1/3/2026,19:59:57,912001069,Subscription Change,A01,Sales,Callback,Answered,21,174.0,58.0,43.0,5.0,Yes,2
 C0076,1/3/2026,18:24:05,912000442,Order Status,A09,Support,Phone,Answered,180,369.0,20.0,31.0,2.0,Yes,2
 C0077,1/3/2026,19:53:00,912000355,Product Inquiry,A08,Billing,Callback,Answered,112,228.0,53.0,72.0,3.0,Yes,0
@@ -81,7 +81,7 @@ C0079,1/3/2026,16:03:15,912001359,Technical Problem,A04,Support,Phone,Answered,2
 C0080,1/3/2026,15:36:38,912000951,Account Access,A04,Billing,Callback,Answered,69,226.0,33.0,46.0,5.0,Yes,0
 C0081,1/3/2026,18:58:11,912000781,Order Status,A08,Support,Phone,Answered,144,451.0,53.0,70.0,3.0,Yes,0
 C0082,1/3/2026,11:11:48,912000369,Subscription Change,A04,Support,Phone,Answered,174,486.0,64.0,23.0,3.0,No,0
-C0083,1/3/2026,9:15:16,912001471,Product Inquiry,A08,Sales,Phone,Abandoned,42,0.0,0.0,0.0,3.0,No,0
+C0083,1/3/2026,9:15:16,912001471,Product Inquiry,A08,Sales,Phone,Abandoned,42,0.0,0.0,0.0,0.0,No,0
 C0084,1/3/2026,17:12:03,912001468,Refund Request,A10,Sales,Phone,Answered,30,290.0,76.0,33.0,4.0,No,0
 C0085,1/3/2026,19:00:13,912000755,Account Access,A02,Billing,Callback,Answered,81,277.0,36.0,64.0,5.0,Yes,0
 C0086,1/3/2026,15:49:18,912001103,Technical Problem,A06,Support,Phone,Answered,116,411.0,68.0,49.0,3.0,No,0
@@ -93,9 +93,9 @@ C0091,1/3/2026,15:31:01,912001255,Product Inquiry,A01,Sales,Phone,Answered,56,21
 C0092,1/3/2026,17:58:11,912001231,Product Inquiry,A03,Sales,Phone,Answered,75,204.0,50.0,37.0,5.0,Yes,2
 C0093,1/3/2026,14:15:44,912000354,Subscription Change,A02,Sales,Phone,Answered,64,148.0,16.0,45.0,2.0,Yes,0
 C0094,1/3/2026,8:10:05,912000617,Technical Problem,A06,Support,Phone,Answered,179,304.0,72.0,22.0,4.0,No,0
-C0095,1/3/2026,15:17:02,912000991,Account Access,A05,Billing,Phone,Abandoned,24,0.0,0.0,0.0,3.0,No,0
+C0095,1/3/2026,15:17:02,912000991,Account Access,A05,Billing,Phone,Abandoned,24,0.0,0.0,0.0,0.0,No,0
 C0096,1/3/2026,10:54:20,912000994,Order Status,A03,Sales,Phone,Answered,77,159.0,43.0,30.0,5.0,No,1
-C0097,1/3/2026,16:34:21,912000244,Account Access,A12,Support,Phone,Abandoned,167,0.0,0.0,0.0,3.0,No,0
+C0097,1/3/2026,16:34:21,912000244,Account Access,A12,Support,Phone,Abandoned,167,0.0,0.0,0.0,0.0,No,0
 C0098,1/3/2026,19:03:06,912000676,Technical Problem,A06,Support,Callback,Answered,148,432.0,55.0,69.0,4.0,Yes,0
 C0099,1/4/2026,14:14:22,912000348,Technical Problem,A03,Support,Phone,Answered,176,301.0,42.0,71.0,2.0,Yes,1
 C0100,1/4/2026,14:50:40,912000794,Subscription Change,A06,Sales,Phone,Answered,10,218.0,61.0,43.0,2.0,Yes,1
@@ -103,7 +103,7 @@ C0101,1/4/2026,14:35:35,912001228,Order Status,A02,Support,Phone,Answered,81,432
 C0102,1/4/2026,9:57:35,912000193,Account Access,A10,Billing,Callback,Answered,83,177.0,39.0,39.0,3.0,Yes,0
 C0103,1/4/2026,11:19:30,912000215,Account Access,A04,Billing,Phone,Answered,112,238.0,30.0,49.0,5.0,Yes,0
 C0104,1/4/2026,12:39:24,912001316,Billing Issue,A06,Billing,Phone,Answered,37,198.0,46.0,58.0,3.0,Yes,2
-C0105,1/4/2026,19:20:18,912001312,Technical Problem,A10,Support,Phone,Abandoned,133,0.0,0.0,0.0,3.0,No,0
+C0105,1/4/2026,19:20:18,912001312,Technical Problem,A10,Support,Phone,Abandoned,133,0.0,0.0,0.0,0.0,No,0
 C0106,1/4/2026,11:50:25,912000493,Product Inquiry,A04,Support,Callback,Answered,154,454.0,75.0,21.0,4.0,Yes,2
 C0107,1/4/2026,14:18:53,912000386,Order Status,A07,Support,Callback,Answered,117,467.0,37.0,62.0,4.0,Yes,0
 C0108,1/4/2026,16:37:25,912000085,Account Access,A12,Support,Callback,Answered,109,372.0,73.0,58.0,4.0,Yes,0
@@ -118,7 +118,7 @@ C0116,1/4/2026,14:11:52,912000946,Account Access,A10,Support,Callback,Answered,1
 C0117,1/4/2026,15:26:38,912000455,Subscription Change,A03,Sales,Phone,Answered,76,184.0,76.0,30.0,4.0,Yes,1
 C0118,1/4/2026,14:03:55,912001157,Subscription Change,A03,Support,Phone,Answered,146,409.0,68.0,46.0,4.0,No,2
 C0119,1/4/2026,15:05:36,912000836,Order Status,A05,Sales,Phone,Answered,24,277.0,41.0,30.0,5.0,Yes,1
-C0120,1/4/2026,15:32:07,912001096,Technical Problem,A09,Support,Phone,Abandoned,116,0.0,0.0,0.0,3.0,No,0
+C0120,1/4/2026,15:32:07,912001096,Technical Problem,A09,Support,Phone,Abandoned,116,0.0,0.0,0.0,0.0,No,0
 C0121,1/4/2026,15:48:02,912000101,Account Access,A04,Billing,Phone,Transferred,66,266.0,36.0,39.0,3.0,Yes,1
 C0122,1/4/2026,18:05:28,912000655,Refund Request,A04,Billing,Phone,Answered,96,238.0,59.0,30.0,5.0,No,0
 C0123,1/4/2026,17:36:22,912000182,Technical Problem,A03,Support,Phone,Answered,179,354.0,78.0,37.0,5.0,No,2
@@ -135,13 +135,13 @@ C0133,1/5/2026,14:13:05,912001495,Refund Request,A02,Billing,Phone,Answered,69,2
 C0134,1/5/2026,11:38:38,912000326,Technical Problem,A12,Support,Phone,Answered,209,504.0,43.0,33.0,4.0,Yes,0
 C0135,1/5/2026,11:03:50,912001034,Billing Issue,A08,Billing,Callback,Answered,75,241.0,14.0,53.0,4.0,Yes,1
 C0136,1/5/2026,12:24:55,912000952,Subscription Change,A09,Billing,Phone,Answered,80,258.0,14.0,21.0,3.0,Yes,0
-C0137,1/5/2026,18:50:25,912000624,Account Access,A09,Support,Phone,Abandoned,124,0.0,0.0,0.0,3.0,No,0
+C0137,1/5/2026,18:50:25,912000624,Account Access,A09,Support,Phone,Abandoned,124,0.0,0.0,0.0,0.0,No,0
 C0138,1/5/2026,16:05:40,912000563,Technical Problem,A05,Support,Phone,Answered,80,410.0,31.0,71.0,3.0,Yes,0
-C0139,1/5/2026,17:41:43,912001003,Refund Request,A07,Support,Phone,Abandoned,195,0.0,0.0,0.0,3.0,No,0
+C0139,1/5/2026,17:41:43,912001003,Refund Request,A07,Support,Phone,Abandoned,195,0.0,0.0,0.0,0.0,No,0
 C0140,1/5/2026,8:05:59,912000589,Refund Request,A10,Support,Phone,Answered,188,448.0,27.0,27.0,1.0,Yes,0
 C0141,1/5/2026,15:22:33,912001177,Technical Problem,A05,Support,Callback,Answered,86,471.0,39.0,66.0,1.0,No,1
 C0142,1/5/2026,17:17:33,912001115,Product Inquiry,A10,Sales,Phone,Answered,65,270.0,51.0,23.0,4.0,Yes,0
-C0143,1/5/2026,11:06:57,912000582,Refund Request,A04,Support,Phone,Abandoned,81,0.0,0.0,0.0,3.0,No,0
+C0143,1/5/2026,11:06:57,912000582,Refund Request,A04,Support,Phone,Abandoned,81,0.0,0.0,0.0,0.0,No,0
 C0144,1/5/2026,18:00:15,912000016,Order Status,A03,Sales,Phone,Answered,75,281.0,58.0,34.0,5.0,No,1
 C0145,1/5/2026,11:04:36,912000092,Technical Problem,A01,Support,Phone,Answered,172,412.0,10.0,45.0,2.0,Yes,0
 C0146,1/5/2026,18:20:05,912000965,Account Access,A04,Support,Phone,Answered,189,469.0,36.0,49.0,5.0,No,0
@@ -164,9 +164,9 @@ C0162,1/5/2026,10:08:21,912001414,Technical Problem,A06,Support,Callback,Answere
 C0163,1/6/2026,9:45:42,912000108,Technical Problem,A05,Support,Phone,Answered,90,467.0,60.0,70.0,3.0,Yes,0
 C0164,1/6/2026,16:35:44,912001466,Technical Problem,A06,Billing,Phone,Answered,42,208.0,44.0,66.0,5.0,Yes,0
 C0165,1/6/2026,19:36:25,912000783,Billing Issue,A10,Billing,Phone,Answered,95,238.0,33.0,60.0,3.0,No,0
-C0166,1/6/2026,17:15:22,912001014,Subscription Change,A02,Billing,Phone,Abandoned,62,0.0,0.0,0.0,3.0,No,0
+C0166,1/6/2026,17:15:22,912001014,Subscription Change,A02,Billing,Phone,Abandoned,62,0.0,0.0,0.0,0.0,No,0
 C0167,1/6/2026,14:16:13,912000100,Product Inquiry,A05,Sales,Phone,Answered,56,140.0,11.0,44.0,3.0,Yes,0
-C0168,1/6/2026,14:56:24,912000035,Technical Problem,A08,Support,Phone,Abandoned,173,0.0,0.0,0.0,3.0,No,0
+C0168,1/6/2026,14:56:24,912000035,Technical Problem,A08,Support,Phone,Abandoned,173,0.0,0.0,0.0,0.0,No,0
 C0169,1/6/2026,17:14:10,912000208,Refund Request,A01,Support,Phone,Answered,110,346.0,18.0,24.0,2.0,No,0
 C0170,1/6/2026,9:57:05,912001085,Technical Problem,A08,Support,Callback,Answered,168,435.0,60.0,30.0,5.0,Yes,0
 C0171,1/6/2026,14:35:46,912000025,Billing Issue,A11,Billing,Phone,Answered,50,172.0,11.0,45.0,3.0,No,0
@@ -181,18 +181,18 @@ C0179,1/6/2026,17:55:34,912000967,Billing Issue,A05,Billing,Callback,Answered,82
 C0180,1/6/2026,16:25:02,912000322,Technical Problem,A12,Support,Callback,Answered,190,515.0,39.0,43.0,3.0,No,0
 C0181,1/6/2026,11:31:54,912001342,Billing Issue,A04,Support,Phone,Answered,189,478.0,46.0,37.0,2.0,Yes,1
 C0182,1/6/2026,14:58:52,912001002,Complaint,A09,Support,Phone,Transferred,175,294.0,70.0,70.0,3.0,Yes,0
-C0183,1/6/2026,9:54:33,912000788,Account Access,A04,Billing,Phone,Abandoned,56,0.0,0.0,0.0,3.0,No,0
+C0183,1/6/2026,9:54:33,912000788,Account Access,A04,Billing,Phone,Abandoned,56,0.0,0.0,0.0,0.0,No,0
 C0184,1/6/2026,11:29:03,912000343,Product Inquiry,A05,Billing,Phone,Answered,79,224.0,55.0,60.0,3.0,Yes,1
 C0185,1/6/2026,15:28:11,912001144,Subscription Change,A09,Billing,Phone,Answered,40,267.0,38.0,67.0,1.0,Yes,1
 C0186,1/6/2026,8:54:36,912000636,Billing Issue,A04,Billing,Phone,Answered,64,243.0,57.0,52.0,5.0,No,0
 C0187,1/6/2026,8:58:08,912001293,Account Access,A01,Support,Phone,Answered,147,486.0,44.0,65.0,3.0,Yes,2
 C0188,1/6/2026,14:22:29,912000721,Order Status,A11,Sales,Phone,Answered,49,241.0,79.0,26.0,5.0,No,0
 C0189,1/6/2026,17:35:41,912000707,Technical Problem,A11,Support,Phone,Answered,78,366.0,40.0,60.0,4.0,Yes,0
-C0190,1/6/2026,19:41:19,912001038,Technical Problem,A04,Sales,Phone,Abandoned,96,0.0,0.0,0.0,3.0,No,0
+C0190,1/6/2026,19:41:19,912001038,Technical Problem,A04,Sales,Phone,Abandoned,96,0.0,0.0,0.0,0.0,No,0
 C0191,1/6/2026,17:25:42,912001077,Complaint,A01,Support,Phone,Answered,107,346.0,58.0,45.0,4.0,Yes,0
 C0192,1/6/2026,15:12:21,912000855,Complaint,A09,Support,Phone,Answered,130,512.0,50.0,52.0,4.0,Yes,0
-C0193,1/6/2026,15:18:06,912001306,Account Access,A12,Support,Phone,Abandoned,182,0.0,0.0,0.0,3.0,No,0
-C0194,1/6/2026,19:57:21,912001029,Account Access,A04,Support,Phone,Abandoned,132,0.0,0.0,0.0,3.0,No,0
+C0193,1/6/2026,15:18:06,912001306,Account Access,A12,Support,Phone,Abandoned,182,0.0,0.0,0.0,0.0,No,0
+C0194,1/6/2026,19:57:21,912001029,Account Access,A04,Support,Phone,Abandoned,132,0.0,0.0,0.0,0.0,No,0
 C0195,1/7/2026,17:21:23,912000574,Complaint,A02,Sales,Phone,Answered,65,289.0,79.0,59.0,4.0,No,0
 C0196,1/7/2026,18:24:33,912000870,Product Inquiry,A01,Sales,Phone,Answered,42,244.0,77.0,49.0,3.0,No,0
 C0197,1/7/2026,9:21:40,912001031,Complaint,A01,Billing,Phone,Answered,55,186.0,26.0,56.0,5.0,Yes,1
@@ -212,29 +212,29 @@ C0210,1/7/2026,16:11:39,912001042,Technical Problem,A01,Support,Phone,Transferre
 C0211,1/7/2026,8:16:41,912000999,Technical Problem,A11,Support,Phone,Answered,165,427.0,77.0,34.0,3.0,Yes,2
 C0212,1/7/2026,15:44:39,912001349,Complaint,A04,Sales,Phone,Answered,83,238.0,24.0,73.0,4.0,No,1
 C0213,1/7/2026,8:59:10,912000377,Technical Problem,A08,Support,Phone,Transferred,113,405.0,46.0,35.0,3.0,Yes,0
-C0214,1/7/2026,15:24:25,912001068,Account Access,A08,Billing,Phone,Abandoned,89,0.0,0.0,0.0,3.0,No,0
+C0214,1/7/2026,15:24:25,912001068,Account Access,A08,Billing,Phone,Abandoned,89,0.0,0.0,0.0,0.0,No,0
 C0215,1/7/2026,18:28:20,912001066,Subscription Change,A11,Sales,Phone,Answered,35,245.0,9.0,55.0,5.0,No,0
 C0216,1/7/2026,19:40:19,912000992,Complaint,A11,Billing,Phone,Answered,63,206.0,11.0,72.0,4.0,Yes,0
 C0217,1/7/2026,16:30:45,912001297,Complaint,A02,Support,Phone,Answered,154,336.0,5.0,41.0,4.0,Yes,0
 C0218,1/7/2026,15:23:44,912000173,Subscription Change,A08,Sales,Callback,Answered,88,244.0,18.0,36.0,5.0,Yes,0
 C0219,1/7/2026,14:29:52,912000475,Account Access,A02,Billing,Phone,Answered,25,278.0,80.0,27.0,4.0,Yes,1
 C0220,1/7/2026,19:08:31,912000352,Account Access,A09,Sales,Phone,Transferred,63,289.0,66.0,52.0,5.0,No,1
-C0221,1/7/2026,10:52:08,912000058,Account Access,A10,Sales,Phone,Abandoned,64,0.0,0.0,0.0,3.0,No,0
+C0221,1/7/2026,10:52:08,912000058,Account Access,A10,Sales,Phone,Abandoned,64,0.0,0.0,0.0,0.0,No,0
 C0222,1/7/2026,14:38:58,912001277,Order Status,A07,Support,Phone,Transferred,131,583.0,22.0,46.0,3.0,No,0
 C0223,1/7/2026,15:20:45,912000037,Account Access,A04,Support,Phone,Answered,181,354.0,49.0,63.0,5.0,Yes,0
 C0224,1/7/2026,10:34:44,912000796,Technical Problem,A06,Support,Phone,Answered,144,426.0,58.0,63.0,2.0,No,1
 C0225,1/7/2026,18:51:00,912000382,Technical Problem,A03,Support,Phone,Answered,93,348.0,25.0,38.0,1.0,Yes,2
 C0226,1/7/2026,17:13:48,912001095,Technical Problem,A08,Support,Phone,Answered,189,423.0,33.0,67.0,3.0,Yes,0
 C0227,1/8/2026,17:44:18,912001004,Product Inquiry,A07,Support,Phone,Answered,201,510.0,11.0,20.0,4.0,Yes,1
-C0228,1/8/2026,14:14:58,912000993,Technical Problem,A06,Support,Phone,Abandoned,139,0.0,0.0,0.0,3.0,No,0
+C0228,1/8/2026,14:14:58,912000993,Technical Problem,A06,Support,Phone,Abandoned,139,0.0,0.0,0.0,0.0,No,0
 C0229,1/8/2026,17:12:49,912000532,Technical Problem,A08,Support,Phone,Answered,169,327.0,27.0,67.0,3.0,Yes,0
 C0230,1/8/2026,15:08:10,912000917,Technical Problem,A06,Support,Phone,Answered,89,290.0,24.0,40.0,3.0,No,0
 C0231,1/8/2026,18:19:31,912000253,Complaint,A02,Billing,Phone,Answered,60,227.0,33.0,31.0,3.0,No,0
 C0232,1/8/2026,15:25:05,912000674,Complaint,A11,Support,Callback,Answered,116,355.0,32.0,68.0,3.0,Yes,0
-C0233,1/8/2026,17:41:00,912001465,Complaint,A04,Sales,Phone,Abandoned,78,0.0,0.0,0.0,3.0,No,0
+C0233,1/8/2026,17:41:00,912001465,Complaint,A04,Sales,Phone,Abandoned,78,0.0,0.0,0.0,0.0,No,0
 C0234,1/8/2026,11:02:43,912000828,Complaint,A02,Billing,Phone,Answered,89,252.0,41.0,21.0,4.0,No,1
 C0235,1/8/2026,17:28:31,912001143,Product Inquiry,A04,Sales,Callback,Answered,28,182.0,73.0,54.0,5.0,Yes,0
-C0236,1/8/2026,17:55:43,912000875,Product Inquiry,A09,Support,Phone,Abandoned,164,0.0,0.0,0.0,3.0,No,0
+C0236,1/8/2026,17:55:43,912000875,Product Inquiry,A09,Support,Phone,Abandoned,164,0.0,0.0,0.0,0.0,No,0
 C0237,1/8/2026,17:41:52,912000739,Billing Issue,A03,Billing,Phone,Answered,73,171.0,14.0,23.0,2.0,Yes,1
 C0238,1/8/2026,17:58:16,912001298,Technical Problem,A07,Support,Phone,Answered,94,547.0,73.0,20.0,4.0,Yes,0
 C0239,1/8/2026,16:04:22,912000499,Refund Request,A11,Billing,Phone,Answered,31,196.0,61.0,44.0,4.0,Yes,0
@@ -249,12 +249,12 @@ C0247,1/8/2026,8:37:37,912000656,Technical Problem,A01,Support,Phone,Answered,13
 C0248,1/8/2026,18:37:46,912000886,Technical Problem,A09,Billing,Phone,Answered,70,206.0,69.0,20.0,5.0,No,0
 C0249,1/8/2026,16:10:48,912000045,Technical Problem,A03,Support,Phone,Answered,173,503.0,23.0,67.0,1.0,No,2
 C0250,1/8/2026,17:14:04,912000107,Subscription Change,A11,Sales,Phone,Answered,68,232.0,54.0,50.0,2.0,No,1
-C0251,1/8/2026,16:06:45,912000980,Technical Problem,A05,Billing,Phone,Abandoned,53,0.0,0.0,0.0,3.0,No,0
+C0251,1/8/2026,16:06:45,912000980,Technical Problem,A05,Billing,Phone,Abandoned,53,0.0,0.0,0.0,0.0,No,0
 C0252,1/8/2026,15:36:11,912000576,Technical Problem,A10,Support,Phone,Answered,188,412.0,37.0,44.0,3.0,Yes,2
 C0253,1/8/2026,17:22:31,912001444,Billing Issue,A01,Billing,Callback,Answered,37,216.0,26.0,34.0,3.0,Yes,0
 C0254,1/8/2026,10:23:38,912000495,Billing Issue,A04,Support,Phone,Answered,145,309.0,66.0,63.0,2.0,Yes,0
 C0255,1/8/2026,17:01:15,912001078,Order Status,A03,Sales,Phone,Answered,53,286.0,23.0,23.0,4.0,No,1
-C0256,1/8/2026,14:36:40,912000464,Product Inquiry,A11,Sales,Phone,Abandoned,70,0.0,0.0,0.0,3.0,No,0
+C0256,1/8/2026,14:36:40,912000464,Product Inquiry,A11,Sales,Phone,Abandoned,70,0.0,0.0,0.0,0.0,No,0
 C0257,1/8/2026,9:28:38,912001287,Account Access,A03,Billing,Callback,Answered,101,178.0,79.0,72.0,4.0,No,2
 C0258,1/8/2026,10:43:21,912000670,Order Status,A02,Billing,Phone,Answered,69,176.0,18.0,21.0,4.0,No,0
 C0259,1/9/2026,14:09:38,912001447,Subscription Change,A10,Sales,Phone,Answered,101,276.0,69.0,68.0,3.0,Yes,0
@@ -269,7 +269,7 @@ C0267,1/9/2026,14:41:33,912000719,Product Inquiry,A01,Sales,Callback,Transferred
 C0268,1/9/2026,15:12:02,912000885,Complaint,A12,Billing,Phone,Answered,72,164.0,51.0,35.0,2.0,No,0
 C0269,1/9/2026,11:25:22,912001417,Account Access,A04,Support,Phone,Answered,196,297.0,16.0,55.0,5.0,No,0
 C0270,1/9/2026,12:52:17,912000743,Product Inquiry,A08,Sales,Callback,Transferred,56,206.0,27.0,46.0,4.0,Yes,0
-C0271,1/9/2026,12:07:51,912000984,Refund Request,A09,Support,Phone,Abandoned,143,0.0,0.0,0.0,3.0,No,0
+C0271,1/9/2026,12:07:51,912000984,Refund Request,A09,Support,Phone,Abandoned,143,0.0,0.0,0.0,0.0,No,0
 C0272,1/9/2026,11:28:24,912000402,Account Access,A06,Support,Phone,Transferred,128,454.0,63.0,57.0,2.0,Yes,1
 C0273,1/9/2026,14:50:14,912001153,Billing Issue,A01,Support,Phone,Answered,115,412.0,73.0,20.0,2.0,Yes,0
 C0274,1/9/2026,14:47:52,912000970,Technical Problem,A03,Support,Phone,Answered,131,508.0,78.0,37.0,5.0,No,1
@@ -288,14 +288,14 @@ C0286,1/9/2026,17:33:28,912000654,Billing Issue,A01,Support,Phone,Answered,100,4
 C0287,1/9/2026,9:04:59,912000129,Complaint,A01,Billing,Phone,Answered,87,257.0,15.0,26.0,4.0,Yes,0
 C0288,1/9/2026,18:19:14,912000691,Complaint,A11,Sales,Phone,Answered,43,183.0,8.0,22.0,4.0,No,0
 C0289,1/9/2026,15:55:34,912001098,Refund Request,A03,Billing,Phone,Transferred,104,235.0,63.0,60.0,4.0,No,2
-C0290,1/9/2026,16:34:19,912000395,Billing Issue,A04,Billing,Phone,Abandoned,95,0.0,0.0,0.0,3.0,No,0
+C0290,1/9/2026,16:34:19,912000395,Billing Issue,A04,Billing,Phone,Abandoned,95,0.0,0.0,0.0,0.0,No,0
 C0291,1/10/2026,14:16:09,912001401,Technical Problem,A03,Support,Phone,Answered,154,473.0,66.0,39.0,2.0,No,0
 C0292,1/10/2026,11:00:35,912000038,Technical Problem,A09,Support,Phone,Answered,205,492.0,53.0,34.0,2.0,Yes,0
 C0293,1/10/2026,17:58:39,912000081,Technical Problem,A05,Billing,Phone,Answered,100,184.0,13.0,31.0,4.0,Yes,0
 C0294,1/10/2026,14:44:39,912000840,Technical Problem,A03,Support,Phone,Answered,144,348.0,21.0,65.0,2.0,Yes,1
 C0295,1/10/2026,8:13:21,912000373,Technical Problem,A08,Support,Phone,Transferred,223,300.0,23.0,23.0,3.0,Yes,0
 C0296,1/10/2026,10:57:53,912000239,Technical Problem,A01,Sales,Phone,Answered,69,253.0,36.0,67.0,5.0,Yes,2
-C0297,1/10/2026,9:42:13,912001216,Technical Problem,A05,Support,Phone,Abandoned,185,0.0,0.0,0.0,3.0,No,0
+C0297,1/10/2026,9:42:13,912001216,Technical Problem,A05,Support,Phone,Abandoned,185,0.0,0.0,0.0,0.0,No,0
 C0298,1/10/2026,17:35:33,912001146,Technical Problem,A05,Sales,Phone,Answered,98,168.0,35.0,60.0,5.0,Yes,0
 C0299,1/10/2026,16:25:50,912000236,Technical Problem,A10,Sales,Callback,Answered,105,162.0,36.0,30.0,4.0,Yes,0
 C0300,1/10/2026,19:48:40,912001185,Technical Problem,A03,Sales,Phone,Answered,77,221.0,76.0,70.0,5.0,No,2
@@ -304,60 +304,60 @@ C0302,1/10/2026,12:29:17,912001388,Technical Problem,A09,Billing,Phone,Answered,
 C0303,1/10/2026,14:11:56,912000792,Technical Problem,A10,Sales,Callback,Answered,123,188.0,72.0,63.0,4.0,Yes,0
 C0304,1/10/2026,12:41:20,912000565,Technical Problem,A02,Sales,Phone,Answered,43,191.0,18.0,51.0,4.0,Yes,0
 C0305,1/10/2026,14:31:33,912000760,Technical Problem,A01,Support,Phone,Answered,99,518.0,31.0,61.0,1.0,No,0
-C0306,1/10/2026,17:03:23,912001166,Technical Problem,A07,Support,Callback,Abandoned,219,0.0,0.0,0.0,3.0,No,0
+C0306,1/10/2026,17:03:23,912001166,Technical Problem,A07,Support,Callback,Abandoned,219,0.0,0.0,0.0,0.0,No,0
 C0307,1/10/2026,8:04:53,912001238,Technical Problem,A09,Support,Callback,Answered,182,328.0,29.0,53.0,5.0,Yes,0
 C0308,1/10/2026,15:35:26,912001148,Technical Problem,A10,Support,Phone,Answered,204,322.0,28.0,55.0,2.0,Yes,0
-C0309,1/10/2026,19:28:59,912000090,Technical Problem,A06,Support,Phone,Abandoned,198,0.0,0.0,0.0,3.0,No,0
+C0309,1/10/2026,19:28:59,912000090,Technical Problem,A06,Support,Phone,Abandoned,198,0.0,0.0,0.0,0.0,No,0
 C0310,1/10/2026,17:20:38,912001371,Technical Problem,A07,Sales,Phone,Answered,95,384.0,5.0,66.0,2.0,Yes,0
 C0311,1/10/2026,18:00:19,912000093,Technical Problem,A06,Billing,Phone,Answered,110,225.0,76.0,56.0,1.0,Yes,1
 C0312,1/10/2026,12:08:16,912000561,Technical Problem,A04,Support,Phone,Answered,221,514.0,32.0,66.0,3.0,Yes,0
 C0313,1/10/2026,15:57:44,912001189,Technical Problem,A02,Support,Callback,Answered,219,377.0,15.0,69.0,3.0,No,0
 C0314,1/10/2026,17:26:59,912001155,Technical Problem,A04,Billing,Callback,Answered,111,208.0,11.0,39.0,4.0,Yes,0
 C0315,1/10/2026,12:44:14,912000126,Technical Problem,A07,Sales,Phone,Transferred,97,331.0,42.0,70.0,2.0,Yes,0
-C0316,1/10/2026,8:25:16,912000661,Technical Problem,A12,Sales,Phone,Abandoned,112,0.0,0.0,0.0,3.0,No,0
-C0317,1/10/2026,14:36:12,912000221,Technical Problem,A09,Support,Callback,Abandoned,216,0.0,0.0,0.0,3.0,No,0
+C0316,1/10/2026,8:25:16,912000661,Technical Problem,A12,Sales,Phone,Abandoned,112,0.0,0.0,0.0,0.0,No,0
+C0317,1/10/2026,14:36:12,912000221,Technical Problem,A09,Support,Callback,Abandoned,216,0.0,0.0,0.0,0.0,No,0
 C0318,1/10/2026,12:59:36,912001325,Technical Problem,A07,Sales,Phone,Answered,82,319.0,49.0,59.0,5.0,No,1
-C0319,1/10/2026,18:14:12,912000629,Complaint,A12,Support,Phone,Abandoned,152,0.0,0.0,0.0,3.0,No,0
-C0320,1/10/2026,18:55:53,912000976,Complaint,A12,Billing,Phone,Abandoned,131,0.0,0.0,0.0,3.0,No,0
+C0319,1/10/2026,18:14:12,912000629,Complaint,A12,Support,Phone,Abandoned,152,0.0,0.0,0.0,0.0,No,0
+C0320,1/10/2026,18:55:53,912000976,Complaint,A12,Billing,Phone,Abandoned,131,0.0,0.0,0.0,0.0,No,0
 C0321,1/10/2026,10:34:13,912000029,Account Access,A05,Sales,Phone,Answered,40,236.0,79.0,62.0,2.0,Yes,0
 C0322,1/10/2026,10:44:39,912000167,Subscription Change,A01,Sales,Phone,Answered,95,167.0,7.0,38.0,3.0,Yes,1
 C0323,1/10/2026,14:45:06,912001354,Subscription Change,A10,Billing,Phone,Answered,163,278.0,7.0,22.0,3.0,Yes,0
 C0324,1/10/2026,14:10:01,912000912,Order Status,A11,Support,Phone,Answered,171,487.0,12.0,60.0,5.0,Yes,0
-C0325,1/10/2026,19:35:17,912000154,Order Status,A07,Sales,Phone,Abandoned,119,0.0,0.0,0.0,3.0,No,0
+C0325,1/10/2026,19:35:17,912000154,Order Status,A07,Sales,Phone,Abandoned,119,0.0,0.0,0.0,0.0,No,0
 C0326,1/10/2026,18:43:14,912000832,Product Inquiry,A07,Support,Phone,Transferred,190,419.0,22.0,57.0,5.0,No,0
 C0327,1/10/2026,16:33:58,912000228,Subscription Change,A03,Sales,Callback,Answered,64,282.0,73.0,66.0,5.0,No,0
 C0328,1/10/2026,17:48:20,912001500,Subscription Change,A07,Billing,Phone,Answered,101,269.0,28.0,21.0,3.0,Yes,1
-C0329,1/10/2026,11:14:14,912000924,Product Inquiry,A12,Support,Phone,Abandoned,257,0.0,0.0,0.0,3.0,No,0
+C0329,1/10/2026,11:14:14,912000924,Product Inquiry,A12,Support,Phone,Abandoned,257,0.0,0.0,0.0,0.0,No,0
 C0330,1/10/2026,16:23:11,912001089,Complaint,A03,Billing,Phone,Answered,126,278.0,39.0,46.0,3.0,No,1
 C0331,1/10/2026,10:11:59,912001054,Account Access,A10,Billing,Phone,Answered,142,211.0,10.0,58.0,3.0,Yes,1
-C0332,1/10/2026,16:47:36,912000623,Complaint,A12,Support,Phone,Abandoned,173,0.0,0.0,0.0,3.0,No,0
+C0332,1/10/2026,16:47:36,912000623,Complaint,A12,Support,Phone,Abandoned,173,0.0,0.0,0.0,0.0,No,0
 C0333,1/10/2026,18:15:33,912000605,Refund Request,A01,Support,Callback,Answered,173,328.0,42.0,48.0,4.0,Yes,0
 C0334,1/10/2026,15:27:18,912000463,Subscription Change,A09,Support,Phone,Transferred,200,303.0,69.0,27.0,5.0,Yes,0
 C0335,1/10/2026,15:25:26,912000646,Account Access,A08,Support,Phone,Answered,144,344.0,46.0,64.0,2.0,Yes,0
 C0336,1/10/2026,17:05:07,912001219,Subscription Change,A02,Support,Phone,Answered,223,436.0,25.0,44.0,2.0,Yes,0
 C0337,1/10/2026,12:55:42,912001020,Subscription Change,A03,Billing,Phone,Answered,131,253.0,62.0,38.0,2.0,Yes,2
-C0338,1/10/2026,10:39:48,912001413,Order Status,A08,Sales,Phone,Abandoned,126,0.0,0.0,0.0,3.0,No,0
+C0338,1/10/2026,10:39:48,912001413,Order Status,A08,Sales,Phone,Abandoned,126,0.0,0.0,0.0,0.0,No,0
 C0339,1/10/2026,10:42:30,912001319,Subscription Change,A10,Support,Phone,Answered,217,440.0,76.0,72.0,2.0,Yes,1
 C0340,1/10/2026,16:02:09,912000613,Refund Request,A10,Billing,Phone,Answered,85,182.0,25.0,63.0,4.0,Yes,0
-C0341,1/10/2026,15:35:11,912001404,Subscription Change,A06,Billing,Phone,Abandoned,98,0.0,0.0,0.0,3.0,No,0
+C0341,1/10/2026,15:35:11,912001404,Subscription Change,A06,Billing,Phone,Abandoned,98,0.0,0.0,0.0,0.0,No,0
 C0342,1/10/2026,14:24:52,912000722,Billing Issue,A09,Sales,Phone,Answered,54,224.0,72.0,46.0,4.0,Yes,0
-C0343,1/10/2026,9:46:40,912000379,Account Access,A12,Support,Phone,Abandoned,226,0.0,0.0,0.0,3.0,No,0
+C0343,1/10/2026,9:46:40,912000379,Account Access,A12,Support,Phone,Abandoned,226,0.0,0.0,0.0,0.0,No,0
 C0344,1/10/2026,16:20:16,912000195,Account Access,A06,Support,Callback,Transferred,186,466.0,68.0,51.0,2.0,No,1
 C0345,1/10/2026,11:12:00,912000274,Product Inquiry,A02,Sales,Phone,Answered,95,245.0,10.0,41.0,3.0,No,0
 C0346,1/10/2026,16:44:18,912001012,Product Inquiry,A05,Sales,Phone,Answered,37,225.0,48.0,45.0,1.0,Yes,1
-C0347,1/10/2026,10:21:53,912001247,Complaint,A08,Support,Phone,Abandoned,205,0.0,0.0,0.0,3.0,No,0
-C0348,1/10/2026,15:55:34,912000525,Subscription Change,A07,Billing,Phone,Abandoned,161,0.0,0.0,0.0,3.0,No,0
+C0347,1/10/2026,10:21:53,912001247,Complaint,A08,Support,Phone,Abandoned,205,0.0,0.0,0.0,0.0,No,0
+C0348,1/10/2026,15:55:34,912000525,Subscription Change,A07,Billing,Phone,Abandoned,161,0.0,0.0,0.0,0.0,No,0
 C0349,1/10/2026,17:20:35,912000756,Subscription Change,A11,Support,Phone,Answered,213,296.0,24.0,37.0,3.0,Yes,1
 C0350,1/10/2026,15:10:36,912000752,Order Status,A02,Support,Phone,Transferred,200,461.0,9.0,37.0,2.0,Yes,0
-C0351,1/10/2026,14:19:13,912000758,Account Access,A06,Support,Phone,Abandoned,129,0.0,0.0,0.0,3.0,No,0
+C0351,1/10/2026,14:19:13,912000758,Account Access,A06,Support,Phone,Abandoned,129,0.0,0.0,0.0,0.0,No,0
 C0352,1/10/2026,15:51:30,912001223,Subscription Change,A06,Billing,Phone,Transferred,126,259.0,46.0,29.0,5.0,Yes,1
-C0353,1/10/2026,15:08:13,912001396,Account Access,A12,Support,Phone,Abandoned,178,0.0,0.0,0.0,3.0,No,0
-C0354,1/10/2026,18:21:29,912000889,Billing Issue,A11,Billing,Phone,Abandoned,119,0.0,0.0,0.0,3.0,No,0
+C0353,1/10/2026,15:08:13,912001396,Account Access,A12,Support,Phone,Abandoned,178,0.0,0.0,0.0,0.0,No,0
+C0354,1/10/2026,18:21:29,912000889,Billing Issue,A11,Billing,Phone,Abandoned,119,0.0,0.0,0.0,0.0,No,0
 C0355,1/10/2026,18:20:12,912000039,Complaint,A06,Sales,Phone,Answered,56,180.0,40.0,27.0,4.0,Yes,0
-C0356,1/10/2026,10:22:35,912000892,Billing Issue,A12,Support,Phone,Abandoned,142,0.0,0.0,0.0,3.0,No,0
-C0357,1/10/2026,16:21:34,912000809,Complaint,A08,Support,Phone,Abandoned,155,0.0,0.0,0.0,3.0,No,0
-C0358,1/10/2026,14:11:45,912001459,Refund Request,A12,Support,Phone,Abandoned,161,0.0,0.0,0.0,3.0,No,0
-C0359,1/10/2026,16:42:51,912001173,Account Access,A08,Support,Callback,Abandoned,253,0.0,0.0,0.0,3.0,No,0
+C0356,1/10/2026,10:22:35,912000892,Billing Issue,A12,Support,Phone,Abandoned,142,0.0,0.0,0.0,0.0,No,0
+C0357,1/10/2026,16:21:34,912000809,Complaint,A08,Support,Phone,Abandoned,155,0.0,0.0,0.0,0.0,No,0
+C0358,1/10/2026,14:11:45,912001459,Refund Request,A12,Support,Phone,Abandoned,161,0.0,0.0,0.0,0.0,No,0
+C0359,1/10/2026,16:42:51,912001173,Account Access,A08,Support,Callback,Abandoned,253,0.0,0.0,0.0,0.0,No,0
 C0360,1/10/2026,9:19:43,912001484,Product Inquiry,A08,Support,Phone,Answered,245,513.0,51.0,45.0,3.0,No,0
 C0361,1/11/2026,18:20:29,912000698,Technical Problem,A02,Support,Phone,Answered,129,496.0,26.0,38.0,2.0,Yes,1
 C0362,1/11/2026,9:52:45,912000270,Billing Issue,A11,Billing,Phone,Answered,58,228.0,64.0,45.0,3.0,Yes,0
@@ -370,12 +370,12 @@ C0368,1/11/2026,11:01:15,912000650,Complaint,A11,Support,Phone,Answered,118,383.
 C0369,1/11/2026,10:24:53,912001275,Billing Issue,A03,Billing,Callback,Answered,50,161.0,14.0,61.0,4.0,No,0
 C0370,1/11/2026,14:08:05,912000640,Order Status,A08,Sales,Callback,Answered,92,299.0,28.0,49.0,4.0,Yes,0
 C0371,1/11/2026,12:11:27,912000518,Product Inquiry,A12,Support,Phone,Answered,152,385.0,74.0,56.0,3.0,No,0
-C0372,1/11/2026,16:07:37,912000751,Product Inquiry,A03,Support,Phone,Abandoned,171,0.0,0.0,0.0,3.0,No,0
+C0372,1/11/2026,16:07:37,912000751,Product Inquiry,A03,Support,Phone,Abandoned,171,0.0,0.0,0.0,0.0,No,0
 C0373,1/11/2026,17:29:33,912001425,Subscription Change,A02,Sales,Callback,Answered,50,159.0,74.0,71.0,5.0,Yes,0
 C0374,1/11/2026,15:00:30,912000727,Subscription Change,A10,Support,Callback,Answered,191,354.0,26.0,22.0,3.0,Yes,0
 C0375,1/11/2026,17:16:03,912001399,Product Inquiry,A10,Support,Phone,Answered,142,468.0,8.0,38.0,1.0,Yes,0
 C0376,1/11/2026,17:16:08,912001327,Technical Problem,A05,Support,Phone,Answered,84,434.0,27.0,57.0,3.0,Yes,1
-C0377,1/11/2026,10:50:44,912001215,Complaint,A09,Sales,Phone,Abandoned,31,0.0,0.0,0.0,3.0,No,0
+C0377,1/11/2026,10:50:44,912001215,Complaint,A09,Sales,Phone,Abandoned,31,0.0,0.0,0.0,0.0,No,0
 C0378,1/11/2026,19:09:38,912000243,Billing Issue,A08,Billing,Phone,Answered,106,209.0,35.0,62.0,3.0,Yes,0
 C0379,1/11/2026,17:22:03,912000911,Order Status,A02,Support,Phone,Answered,129,382.0,65.0,39.0,5.0,No,0
 C0380,1/11/2026,11:43:45,912000023,Technical Problem,A09,Support,Phone,Transferred,71,353.0,62.0,44.0,4.0,No,0
@@ -394,7 +394,7 @@ C0392,1/11/2026,15:04:50,912000391,Technical Problem,A09,Support,Phone,Transferr
 C0393,1/12/2026,14:13:51,912000424,Technical Problem,A11,Support,Phone,Transferred,138,318.0,79.0,34.0,2.0,Yes,1
 C0394,1/12/2026,16:30:58,912000171,Billing Issue,A12,Billing,Phone,Answered,36,240.0,11.0,39.0,4.0,Yes,1
 C0395,1/12/2026,17:04:52,912000177,Complaint,A10,Billing,Phone,Answered,60,262.0,30.0,47.0,5.0,No,0
-C0396,1/12/2026,14:07:43,912000429,Product Inquiry,A04,Support,Phone,Abandoned,160,0.0,0.0,0.0,3.0,No,0
+C0396,1/12/2026,14:07:43,912000429,Product Inquiry,A04,Support,Phone,Abandoned,160,0.0,0.0,0.0,0.0,No,0
 C0397,1/12/2026,12:07:17,912000526,Refund Request,A12,Sales,Phone,Answered,44,202.0,79.0,22.0,4.0,No,0
 C0398,1/12/2026,14:10:01,912001348,Account Access,A01,Billing,Phone,Answered,31,250.0,80.0,38.0,5.0,No,0
 C0399,1/12/2026,16:13:09,912000936,Account Access,A07,Support,Phone,Answered,121,541.0,28.0,65.0,3.0,No,0
@@ -404,16 +404,16 @@ C0402,1/12/2026,12:51:56,912000297,Technical Problem,A12,Billing,Phone,Answered,
 C0403,1/12/2026,14:37:20,912000301,Account Access,A06,Support,Phone,Answered,84,363.0,34.0,26.0,2.0,Yes,0
 C0404,1/12/2026,18:04:30,912000745,Technical Problem,A07,Support,Phone,Answered,172,454.0,52.0,28.0,4.0,Yes,0
 C0405,1/12/2026,12:02:44,912000372,Account Access,A02,Support,Phone,Transferred,128,387.0,26.0,68.0,3.0,No,0
-C0406,1/12/2026,17:40:39,912000145,Billing Issue,A09,Billing,Phone,Abandoned,31,0.0,0.0,0.0,3.0,No,0
-C0407,1/12/2026,14:33:31,912001326,Complaint,A08,Billing,Phone,Abandoned,65,0.0,0.0,0.0,3.0,No,0
+C0406,1/12/2026,17:40:39,912000145,Billing Issue,A09,Billing,Phone,Abandoned,31,0.0,0.0,0.0,0.0,No,0
+C0407,1/12/2026,14:33:31,912001326,Complaint,A08,Billing,Phone,Abandoned,65,0.0,0.0,0.0,0.0,No,0
 C0408,1/12/2026,17:47:55,912000807,Refund Request,A10,Sales,Phone,Answered,97,178.0,78.0,20.0,5.0,Yes,0
-C0409,1/12/2026,17:32:02,912000260,Technical Problem,A12,Support,Phone,Abandoned,152,0.0,0.0,0.0,3.0,No,0
+C0409,1/12/2026,17:32:02,912000260,Technical Problem,A12,Support,Phone,Abandoned,152,0.0,0.0,0.0,0.0,No,0
 C0410,1/12/2026,11:35:48,912000823,Technical Problem,A04,Sales,Phone,Answered,45,163.0,7.0,50.0,4.0,Yes,0
-C0411,1/12/2026,15:37:01,912000175,Complaint,A03,Billing,Phone,Abandoned,86,0.0,0.0,0.0,3.0,No,0
+C0411,1/12/2026,15:37:01,912000175,Complaint,A03,Billing,Phone,Abandoned,86,0.0,0.0,0.0,0.0,No,0
 C0412,1/12/2026,17:23:40,912000850,Technical Problem,A11,Support,Phone,Answered,158,365.0,72.0,22.0,4.0,Yes,0
-C0413,1/12/2026,16:36:50,912000405,Product Inquiry,A10,Sales,Phone,Abandoned,68,0.0,0.0,0.0,3.0,No,0
+C0413,1/12/2026,16:36:50,912000405,Product Inquiry,A10,Sales,Phone,Abandoned,68,0.0,0.0,0.0,0.0,No,0
 C0414,1/12/2026,15:58:43,912000856,Complaint,A07,Support,Phone,Answered,160,499.0,27.0,61.0,5.0,Yes,0
-C0415,1/12/2026,19:15:34,912000909,Account Access,A10,Sales,Phone,Abandoned,70,0.0,0.0,0.0,3.0,No,0
+C0415,1/12/2026,19:15:34,912000909,Account Access,A10,Sales,Phone,Abandoned,70,0.0,0.0,0.0,0.0,No,0
 C0416,1/12/2026,17:48:14,912000036,Account Access,A09,Support,Callback,Answered,78,375.0,49.0,48.0,2.0,Yes,0
 C0417,1/12/2026,16:43:52,912000070,Technical Problem,A10,Support,Phone,Answered,188,487.0,13.0,32.0,2.0,Yes,1
 C0418,1/12/2026,18:18:04,912000383,Product Inquiry,A12,Sales,Phone,Answered,35,273.0,7.0,38.0,5.0,Yes,0
@@ -426,15 +426,15 @@ C0424,1/12/2026,8:47:34,912000732,Account Access,A12,Billing,Phone,Answered,91,2
 C0425,1/13/2026,16:46:30,912000234,Account Access,A09,Billing,Phone,Answered,23,211.0,33.0,48.0,4.0,Yes,0
 C0426,1/13/2026,10:33:14,912000933,Billing Issue,A04,Billing,Phone,Answered,112,246.0,16.0,52.0,4.0,Yes,0
 C0427,1/13/2026,15:03:58,912000242,Subscription Change,A12,Support,Phone,Transferred,139,375.0,6.0,38.0,3.0,Yes,0
-C0428,1/13/2026,15:13:46,912001090,Account Access,A07,Billing,Phone,Abandoned,71,0.0,0.0,0.0,3.0,No,0
+C0428,1/13/2026,15:13:46,912001090,Account Access,A07,Billing,Phone,Abandoned,71,0.0,0.0,0.0,0.0,No,0
 C0429,1/13/2026,17:57:27,912000428,Order Status,A10,Support,Phone,Answered,104,357.0,65.0,75.0,5.0,Yes,0
 C0430,1/13/2026,16:24:05,912000579,Order Status,A05,Sales,Phone,Answered,45,258.0,77.0,68.0,5.0,Yes,1
 C0431,1/13/2026,11:31:02,912001203,Product Inquiry,A10,Billing,Phone,Answered,96,163.0,5.0,29.0,5.0,No,0
-C0432,1/13/2026,15:41:42,912000362,Billing Issue,A08,Billing,Phone,Abandoned,61,0.0,0.0,0.0,3.0,No,0
+C0432,1/13/2026,15:41:42,912000362,Billing Issue,A08,Billing,Phone,Abandoned,61,0.0,0.0,0.0,0.0,No,0
 C0433,1/13/2026,9:17:31,912001028,Refund Request,A12,Billing,Phone,Answered,109,215.0,38.0,60.0,5.0,No,0
 C0434,1/13/2026,14:46:36,912000150,Complaint,A10,Sales,Phone,Answered,54,174.0,50.0,30.0,4.0,Yes,0
 C0435,1/13/2026,19:03:18,912000367,Order Status,A02,Sales,Phone,Answered,59,300.0,28.0,68.0,4.0,Yes,0
-C0436,1/13/2026,18:52:54,912001283,Account Access,A11,Support,Phone,Abandoned,116,0.0,0.0,0.0,3.0,No,0
+C0436,1/13/2026,18:52:54,912001283,Account Access,A11,Support,Phone,Abandoned,116,0.0,0.0,0.0,0.0,No,0
 C0437,1/13/2026,9:37:22,912001055,Technical Problem,A09,Billing,Phone,Answered,82,212.0,48.0,30.0,3.0,Yes,0
 C0438,1/13/2026,10:57:35,912001229,Order Status,A09,Support,Callback,Answered,159,473.0,19.0,46.0,4.0,Yes,0
 C0439,1/13/2026,18:30:22,912000332,Account Access,A08,Support,Phone,Transferred,172,475.0,48.0,31.0,4.0,Yes,0
@@ -442,22 +442,22 @@ C0440,1/13/2026,10:54:44,912000061,Billing Issue,A03,Sales,Phone,Answered,38,168
 C0441,1/13/2026,9:50:42,912001489,Complaint,A02,Support,Phone,Transferred,75,296.0,43.0,62.0,2.0,Yes,0
 C0442,1/13/2026,16:37:57,912000059,Product Inquiry,A01,Sales,Phone,Answered,64,211.0,79.0,42.0,5.0,No,0
 C0443,1/13/2026,16:32:36,912001423,Order Status,A01,Sales,Callback,Answered,55,189.0,41.0,30.0,5.0,Yes,1
-C0444,1/13/2026,9:13:58,912000116,Technical Problem,A06,Support,Phone,Abandoned,93,0.0,0.0,0.0,3.0,No,0
+C0444,1/13/2026,9:13:58,912000116,Technical Problem,A06,Support,Phone,Abandoned,93,0.0,0.0,0.0,0.0,No,0
 C0445,1/13/2026,14:06:11,912001307,Order Status,A07,Billing,Callback,Answered,72,294.0,20.0,49.0,5.0,Yes,0
 C0446,1/13/2026,16:35:46,912000209,Product Inquiry,A02,Sales,Phone,Answered,39,293.0,44.0,63.0,4.0,Yes,2
 C0447,1/13/2026,11:54:27,912000830,Subscription Change,A08,Sales,Phone,Transferred,48,143.0,67.0,63.0,5.0,Yes,0
-C0448,1/13/2026,9:09:25,912001120,Technical Problem,A02,Support,Phone,Abandoned,91,0.0,0.0,0.0,3.0,No,0
+C0448,1/13/2026,9:09:25,912001120,Technical Problem,A02,Support,Phone,Abandoned,91,0.0,0.0,0.0,0.0,No,0
 C0449,1/13/2026,9:12:21,912000699,Subscription Change,A07,Sales,Callback,Answered,86,382.0,79.0,57.0,5.0,No,0
 C0450,1/13/2026,15:38:25,912000160,Complaint,A03,Billing,Phone,Answered,46,192.0,67.0,51.0,1.0,No,1
 C0451,1/13/2026,17:53:04,912001101,Technical Problem,A03,Support,Phone,Answered,176,319.0,43.0,59.0,4.0,No,2
 C0452,1/13/2026,15:31:50,912001460,Technical Problem,A08,Support,Phone,Answered,130,367.0,74.0,54.0,5.0,No,0
 C0453,1/13/2026,18:07:24,912001079,Account Access,A08,Support,Callback,Answered,89,422.0,43.0,65.0,6.0,Yes,0
-C0454,1/13/2026,14:48:07,912001252,Technical Problem,A09,Support,Phone,Abandoned,143,0.0,0.0,0.0,3.0,No,0
+C0454,1/13/2026,14:48:07,912001252,Technical Problem,A09,Support,Phone,Abandoned,143,0.0,0.0,0.0,0.0,No,0
 C0455,1/13/2026,15:35:54,912001129,Order Status,A05,Sales,Phone,Answered,34,297.0,50.0,69.0,1.0,Yes,2
-C0456,1/13/2026,8:53:23,912001193,Technical Problem,A01,Support,Phone,Abandoned,150,0.0,0.0,0.0,3.0,No,0
+C0456,1/13/2026,8:53:23,912001193,Technical Problem,A01,Support,Phone,Abandoned,150,0.0,0.0,0.0,0.0,No,0
 C0457,1/14/2026,12:06:27,912000627,Billing Issue,A06,Support,Phone,Answered,101,343.0,35.0,61.0,4.0,Yes,0
 C0458,1/14/2026,18:07:21,912000063,Order Status,A01,Sales,Phone,Answered,65,248.0,77.0,52.0,5.0,Yes,1
-C0459,1/14/2026,16:20:24,912001159,Technical Problem,A02,Support,Phone,Abandoned,82,0.0,0.0,0.0,3.0,No,0
+C0459,1/14/2026,16:20:24,912001159,Technical Problem,A02,Support,Phone,Abandoned,82,0.0,0.0,0.0,0.0,No,0
 C0460,1/14/2026,16:13:21,912000358,Account Access,A11,Support,Callback,Answered,148,356.0,51.0,47.0,5.0,Yes,0
 C0461,1/14/2026,9:54:34,912000893,Account Access,A05,Sales,Phone,Transferred,35,197.0,16.0,65.0,4.0,Yes,1
 C0462,1/14/2026,9:51:33,912000841,Complaint,A02,Support,Phone,Answered,108,409.0,43.0,47.0,3.0,Yes,0
@@ -465,7 +465,7 @@ C0463,1/14/2026,11:32:29,912001086,Billing Issue,A01,Support,Phone,Answered,136,
 C0464,1/14/2026,18:17:59,912000068,Technical Problem,A07,Support,Callback,Transferred,193,441.0,30.0,43.0,4.0,Yes,0
 C0465,1/14/2026,18:26:20,912000897,Account Access,A11,Billing,Callback,Answered,72,194.0,41.0,61.0,3.0,Yes,0
 C0466,1/14/2026,11:09:12,912000931,Product Inquiry,A05,Sales,Phone,Answered,45,251.0,59.0,61.0,3.0,Yes,1
-C0467,1/14/2026,8:50:51,912001334,Order Status,A11,Sales,Phone,Abandoned,56,0.0,0.0,0.0,3.0,No,0
+C0467,1/14/2026,8:50:51,912001334,Order Status,A11,Sales,Phone,Abandoned,56,0.0,0.0,0.0,0.0,No,0
 C0468,1/14/2026,15:01:03,912000682,Subscription Change,A10,Billing,Phone,Answered,51,274.0,51.0,62.0,5.0,Yes,0
 C0469,1/14/2026,17:08:15,912000838,Order Status,A02,Sales,Phone,Answered,63,288.0,72.0,36.0,4.0,Yes,0
 C0470,1/14/2026,17:20:21,912000801,Refund Request,A12,Billing,Phone,Answered,90,178.0,18.0,31.0,4.0,Yes,0
@@ -475,7 +475,7 @@ C0473,1/14/2026,14:51:43,912000388,Product Inquiry,A08,Sales,Callback,Answered,9
 C0474,1/14/2026,18:10:58,912000910,Order Status,A11,Support,Phone,Answered,74,350.0,15.0,72.0,4.0,Yes,1
 C0475,1/14/2026,18:21:45,912000520,Complaint,A02,Support,Callback,Answered,134,296.0,50.0,46.0,4.0,No,0
 C0476,1/14/2026,14:01:48,912000906,Account Access,A11,Sales,Phone,Answered,51,174.0,5.0,45.0,4.0,Yes,0
-C0477,1/14/2026,9:15:33,912001369,Order Status,A11,Support,Phone,Abandoned,178,0.0,0.0,0.0,3.0,No,0
+C0477,1/14/2026,9:15:33,912001369,Order Status,A11,Support,Phone,Abandoned,178,0.0,0.0,0.0,0.0,No,0
 C0478,1/14/2026,16:26:50,912001062,Billing Issue,A12,Billing,Phone,Answered,73,235.0,46.0,71.0,4.0,Yes,0
 C0479,1/14/2026,14:24:53,912001211,Billing Issue,A01,Billing,Phone,Transferred,49,276.0,16.0,49.0,3.0,Yes,0
 C0480,1/14/2026,14:27:38,912000989,Account Access,A06,Sales,Phone,Answered,46,170.0,6.0,65.0,5.0,No,0
@@ -489,13 +489,13 @@ C0487,1/14/2026,12:57:10,912000533,Account Access,A03,Support,Callback,Answered,
 C0488,1/14/2026,15:10:45,912001431,Billing Issue,A08,Support,Phone,Answered,147,423.0,67.0,49.0,4.0,No,0
 C0489,1/15/2026,9:05:13,912001070,Account Access,A03,Billing,Phone,Answered,82,274.0,79.0,33.0,4.0,No,1
 C0490,1/15/2026,15:26:58,912000060,Subscription Change,A11,Sales,Phone,Answered,31,146.0,41.0,63.0,4.0,Yes,2
-C0491,1/15/2026,18:06:53,912000166,Complaint,A08,Support,Phone,Abandoned,179,25.0,0.0,0.0,3.0,No,0
+C0491,1/15/2026,18:06:53,912000166,Complaint,A08,Support,Phone,Abandoned,179,25.0,0.0,0.0,0.0,No,0
 C0492,1/15/2026,14:17:38,912000619,Account Access,A01,Support,Phone,Answered,127,363.0,77.0,28.0,4.0,Yes,0
 C0493,1/15/2026,12:03:47,912001314,Technical Problem,A07,Sales,Callback,Answered,41,332.0,16.0,21.0,5.0,Yes,1
 C0494,1/15/2026,11:48:41,912000046,Product Inquiry,A07,Sales,Phone,Answered,87,390.0,50.0,62.0,4.0,Yes,0
-C0495,1/15/2026,14:17:36,912001315,Technical Problem,A07,Support,Phone,Abandoned,163,0.0,0.0,0.0,3.0,No,0
+C0495,1/15/2026,14:17:36,912001315,Technical Problem,A07,Support,Phone,Abandoned,163,0.0,0.0,0.0,0.0,No,0
 C0496,1/15/2026,14:27:05,912000019,Product Inquiry,A08,Sales,Phone,Answered,82,179.0,68.0,53.0,3.0,Yes,0
-C0497,1/15/2026,14:58:51,912001043,Account Access,A03,Support,Phone,Abandoned,125,0.0,0.0,0.0,3.0,No,0
+C0497,1/15/2026,14:58:51,912001043,Account Access,A03,Support,Phone,Abandoned,125,0.0,0.0,0.0,0.0,No,0
 C0498,1/15/2026,15:18:36,912000587,Product Inquiry,A01,Sales,Phone,Answered,42,248.0,57.0,26.0,5.0,Yes,0
 C0499,1/15/2026,12:37:05,912000735,Order Status,A12,Billing,Phone,Answered,77,183.0,55.0,22.0,3.0,No,0
 C0500,1/15/2026,16:29:48,912000206,Subscription Change,A05,Support,Phone,Answered,173,327.0,32.0,31.0,2.0,No,0
@@ -510,8 +510,8 @@ C0508,1/15/2026,18:21:58,912000718,Order Status,A11,Support,Callback,Answered,10
 C0509,1/15/2026,17:51:54,912001022,Subscription Change,A12,Sales,Phone,Answered,77,173.0,27.0,32.0,5.0,Yes,0
 C0510,1/15/2026,19:31:19,912000793,Subscription Change,A01,Sales,Phone,Answered,26,231.0,25.0,31.0,2.0,No,1
 C0511,1/15/2026,9:27:07,912000887,Complaint,A04,Support,Phone,Answered,148,370.0,10.0,69.0,2.0,Yes,1
-C0512,1/15/2026,16:32:38,912000329,Technical Problem,A08,Support,Phone,Abandoned,211,0.0,0.0,0.0,3.0,No,0
-C0513,1/15/2026,9:06:50,912000342,Billing Issue,A02,Support,Phone,Abandoned,75,0.0,0.0,0.0,3.0,No,0
+C0512,1/15/2026,16:32:38,912000329,Technical Problem,A08,Support,Phone,Abandoned,211,0.0,0.0,0.0,0.0,No,0
+C0513,1/15/2026,9:06:50,912000342,Billing Issue,A02,Support,Phone,Abandoned,75,0.0,0.0,0.0,0.0,No,0
 C0514,1/15/2026,15:10:40,912000568,Complaint,A06,Sales,Phone,Answered,28,253.0,69.0,51.0,4.0,Yes,1
 C0515,1/15/2026,12:08:07,912001024,Billing Issue,A07,Billing,Phone,Answered,37,406.0,48.0,38.0,4.0,Yes,0
 C0516,1/15/2026,14:42:15,912000523,Refund Request,A07,Sales,Phone,Answered,53,381.0,57.0,49.0,5.0,Yes,2
@@ -524,11 +524,11 @@ C0522,1/16/2026,15:16:15,912001005,Order Status,A07,Billing,Phone,Transferred,67
 C0523,1/16/2026,19:28:19,912000600,Complaint,A06,Support,Phone,Transferred,173,470.0,79.0,56.0,4.0,No,0
 C0524,1/16/2026,18:14:22,912000180,Account Access,A12,Sales,Phone,Answered,50,236.0,71.0,67.0,4.0,Yes,0
 C0525,1/16/2026,17:23:29,912001261,Account Access,A07,Sales,Phone,Answered,36,313.0,32.0,48.0,4.0,Yes,0
-C0526,1/16/2026,17:55:16,912001140,Refund Request,A08,Support,Phone,Abandoned,165,0.0,0.0,0.0,3.0,No,0
+C0526,1/16/2026,17:55:16,912001140,Refund Request,A08,Support,Phone,Abandoned,165,0.0,0.0,0.0,0.0,No,0
 C0527,1/16/2026,19:52:10,912000022,Account Access,A12,Sales,Phone,Answered,81,275.0,20.0,64.0,5.0,Yes,0
 C0528,1/16/2026,19:23:58,912001353,Technical Problem,A07,Billing,Phone,Answered,95,282.0,71.0,29.0,5.0,Yes,0
-C0529,1/16/2026,8:09:09,912001475,Technical Problem,A05,Billing,Phone,Abandoned,47,0.0,0.0,0.0,3.0,No,0
-C0530,1/16/2026,10:47:31,912001424,Technical Problem,A02,Sales,Phone,Abandoned,36,0.0,0.0,0.0,3.0,No,0
+C0529,1/16/2026,8:09:09,912001475,Technical Problem,A05,Billing,Phone,Abandoned,47,0.0,0.0,0.0,0.0,No,0
+C0530,1/16/2026,10:47:31,912001424,Technical Problem,A02,Sales,Phone,Abandoned,36,0.0,0.0,0.0,0.0,No,0
 C0531,1/16/2026,15:19:36,912000257,Technical Problem,A07,Support,Phone,Answered,191,410.0,69.0,60.0,3.0,Yes,0
 C0532,1/16/2026,12:51:39,912000749,Refund Request,A04,Support,Phone,Transferred,140,291.0,61.0,67.0,2.0,Yes,0
 C0533,1/16/2026,8:40:50,912000443,Billing Issue,A11,Billing,Phone,Answered,30,184.0,74.0,56.0,4.0,No,1
@@ -546,7 +546,7 @@ C0544,1/16/2026,16:48:25,912001374,Account Access,A11,Support,Phone,Answered,138
 C0545,1/16/2026,16:24:11,912000922,Billing Issue,A01,Billing,Callback,Answered,67,279.0,29.0,48.0,5.0,Yes,0
 C0546,1/16/2026,16:45:22,912000315,Order Status,A11,Sales,Callback,Answered,55,196.0,34.0,51.0,4.0,Yes,2
 C0547,1/16/2026,16:38:13,912000829,Order Status,A11,Sales,Callback,Answered,65,211.0,77.0,52.0,5.0,Yes,0
-C0548,1/16/2026,15:43:38,912000581,Account Access,A03,Support,Phone,Abandoned,104,0.0,0.0,0.0,3.0,No,0
+C0548,1/16/2026,15:43:38,912000581,Account Access,A03,Support,Phone,Abandoned,104,0.0,0.0,0.0,0.0,No,0
 C0549,1/16/2026,18:54:14,912001109,Order Status,A05,Billing,Phone,Answered,22,248.0,73.0,59.0,4.0,Yes,0
 C0550,1/16/2026,18:41:43,912001273,Product Inquiry,A06,Billing,Phone,Answered,72,195.0,20.0,63.0,4.0,Yes,0
 C0551,1/16/2026,8:46:14,912000273,Product Inquiry,A09,Sales,Callback,Answered,10,240.0,29.0,41.0,1.0,Yes,0
@@ -556,11 +556,11 @@ C0554,1/17/2026,14:06:40,912000764,Technical Problem,A01,Support,Phone,Transferr
 C0555,1/17/2026,11:40:27,912000657,Product Inquiry,A09,Sales,Phone,Answered,64,-120.0,56.0,26.0,5.0,Yes,0
 C0556,1/17/2026,17:39:00,912000203,Order Status,A07,Support,Phone,Transferred,162,449.0,63.0,53.0,2.0,Yes,0
 C0557,1/17/2026,9:50:53,912000663,Account Access,A11,Sales,Phone,Answered,32,247.0,66.0,66.0,3.0,Yes,0
-C0558,1/17/2026,8:08:19,912000240,Technical Problem,A11,Support,Phone,Abandoned,109,0.0,0.0,0.0,3.0,No,0
+C0558,1/17/2026,8:08:19,912000240,Technical Problem,A11,Support,Phone,Abandoned,109,0.0,0.0,0.0,0.0,No,0
 C0559,1/17/2026,16:34:49,912000073,Order Status,A10,Sales,Phone,Answered,43,272.0,80.0,62.0,4.0,Yes,0
 C0560,1/17/2026,17:54:03,912000902,Technical Problem,A04,Support,Phone,Answered,130,297.0,48.0,32.0,5.0,Yes,0
 C0561,1/17/2026,16:21:54,912000988,Account Access,A10,Support,Callback,Answered,127,306.0,63.0,70.0,5.0,Yes,1
-C0562,1/17/2026,16:44:14,912000296,Technical Problem,A08,Support,Phone,Abandoned,194,0.0,0.0,0.0,3.0,No,0
+C0562,1/17/2026,16:44:14,912000296,Technical Problem,A08,Support,Phone,Abandoned,194,0.0,0.0,0.0,0.0,No,0
 C0563,1/17/2026,17:24:13,912000238,Account Access,A01,Support,Callback,Answered,79,371.0,8.0,55.0,2.0,Yes,0
 C0564,1/17/2026,16:48:23,912000034,Technical Problem,A04,Sales,Phone,Answered,42,184.0,48.0,74.0,1.0,Yes,0
 C0565,1/17/2026,18:58:06,912000299,Product Inquiry,A07,Sales,Phone,Answered,79,332.0,44.0,49.0,5.0,No,0
@@ -586,9 +586,9 @@ C0584,1/17/2026,10:39:46,912000305,Billing Issue,A11,Support,Phone,Answered,142,
 C0585,1/18/2026,11:40:34,912000921,Complaint,A12,Sales,Callback,Answered,83,266.0,57.0,68.0,2.0,No,0
 C0586,1/18/2026,9:49:49,912000704,Billing Issue,A05,Support,Phone,Answered,75,398.0,8.0,24.0,3.0,Yes,0
 C0587,1/18/2026,12:25:54,912000857,Complaint,A05,Sales,Phone,Answered,68,174.0,46.0,62.0,2.0,Yes,1
-C0588,1/18/2026,15:15:45,912000536,Order Status,A05,Billing,Phone,Abandoned,41,0.0,0.0,0.0,3.0,No,0
+C0588,1/18/2026,15:15:45,912000536,Order Status,A05,Billing,Phone,Abandoned,41,0.0,0.0,0.0,0.0,No,0
 C0589,1/18/2026,17:38:06,912000232,Complaint,A12,Sales,Phone,Answered,45,142.0,39.0,29.0,5.0,Yes,0
-C0590,1/18/2026,18:34:13,912000427,Technical Problem,A11,Support,Phone,Abandoned,152,0.0,0.0,0.0,3.0,No,0
+C0590,1/18/2026,18:34:13,912000427,Technical Problem,A11,Support,Phone,Abandoned,152,0.0,0.0,0.0,0.0,No,0
 C0591,1/18/2026,16:42:57,912001065,Order Status,A08,Sales,Phone,Answered,21,236.0,30.0,35.0,2.0,Yes,0
 C0592,1/18/2026,14:00:21,912000122,Billing Issue,A02,Billing,Phone,Answered,32,262.0,26.0,66.0,2.0,Yes,0
 C0593,1/18/2026,12:35:40,912000255,Complaint,A09,Sales,Phone,Answered,37,170.0,34.0,33.0,1.0,Yes,0
@@ -597,21 +597,21 @@ C0595,1/18/2026,16:06:45,912001016,Complaint,A10,Support,Callback,Answered,111,3
 C0596,1/18/2026,10:48:56,912000577,Account Access,A11,Support,Callback,Answered,112,284.0,79.0,48.0,2.0,Yes,0
 C0597,1/18/2026,16:00:14,912000153,Complaint,A02,Sales,Phone,Answered,57,249.0,36.0,59.0,4.0,Yes,0
 C0598,1/18/2026,10:24:13,912000156,Technical Problem,A12,Support,Phone,Answered,159,504.0,47.0,28.0,4.0,Yes,0
-C0599,1/18/2026,15:26:41,912001480,Refund Request,A04,Billing,Phone,Abandoned,82,0.0,0.0,0.0,3.0,No,0
-C0600,1/18/2026,11:34:03,912000591,Order Status,A04,Billing,Phone,Abandoned,77,0.0,0.0,0.0,3.0,No,0
-C0601,1/18/2026,18:33:20,912000076,Order Status,A02,Sales,Phone,Abandoned,14,0.0,0.0,0.0,3.0,No,0
+C0599,1/18/2026,15:26:41,912001480,Refund Request,A04,Billing,Phone,Abandoned,82,0.0,0.0,0.0,0.0,No,0
+C0600,1/18/2026,11:34:03,912000591,Order Status,A04,Billing,Phone,Abandoned,77,0.0,0.0,0.0,0.0,No,0
+C0601,1/18/2026,18:33:20,912000076,Order Status,A02,Sales,Phone,Abandoned,14,0.0,0.0,0.0,0.0,No,0
 C0602,1/18/2026,19:03:40,912000504,Account Access,A03,Billing,Callback,Answered,125,279.0,31.0,35.0,4.0,No,1
 C0603,1/18/2026,10:12:15,912000411,Complaint,A05,Support,Phone,Answered,127,442.0,30.0,37.0,5.0,Yes,1
-C0604,1/18/2026,12:24:10,912000067,Order Status,A10,Support,Phone,Abandoned,181,0.0,0.0,0.0,3.0,No,0
+C0604,1/18/2026,12:24:10,912000067,Order Status,A10,Support,Phone,Abandoned,181,0.0,0.0,0.0,0.0,No,0
 C0605,1/18/2026,17:50:30,912001192,Account Access,A02,Sales,Phone,Answered,68,216.0,73.0,29.0,4.0,Yes,0
 C0606,1/18/2026,11:18:24,912000490,Account Access,A06,Support,Phone,Answered,130,330.0,24.0,32.0,4.0,No,0
 C0607,1/18/2026,14:25:59,912000799,Account Access,A12,Support,Phone,Answered,151,444.0,80.0,24.0,5.0,Yes,0
 C0608,1/18/2026,14:36:10,912000053,Order Status,A05,Sales,Phone,Answered,58,229.0,70.0,65.0,5.0,Yes,0
 C0609,1/18/2026,16:59:27,912000189,Account Access,A01,Support,Phone,Transferred,116,441.0,8.0,64.0,3.0,Yes,0
-C0610,1/18/2026,19:09:16,912000688,Refund Request,A11,Sales,Phone,Abandoned,10,0.0,0.0,0.0,3.0,No,0
+C0610,1/18/2026,19:09:16,912000688,Refund Request,A11,Sales,Phone,Abandoned,10,0.0,0.0,0.0,0.0,No,0
 C0611,1/18/2026,9:05:41,912001337,Subscription Change,A12,Support,Phone,Answered,106,512.0,29.0,47.0,4.0,Yes,0
 C0612,1/18/2026,15:34:42,912001318,Refund Request,A12,Billing,Phone,Answered,44,241.0,78.0,69.0,3.0,No,1
-C0613,1/18/2026,10:47:25,912000481,Complaint,A03,Support,Phone,Abandoned,83,0.0,0.0,0.0,3.0,No,0
+C0613,1/18/2026,10:47:25,912000481,Complaint,A03,Support,Phone,Abandoned,83,0.0,0.0,0.0,0.0,No,0
 C0614,1/18/2026,9:44:26,912000292,Subscription Change,A12,Support,Phone,Answered,113,327.0,22.0,32.0,2.0,Yes,0
 C0615,1/18/2026,15:13:11,912000588,Product Inquiry,A04,Sales,Phone,Answered,90,252.0,18.0,75.0,2.0,Yes,0
 C0616,1/18/2026,9:04:21,912000729,Order Status,A08,Sales,Phone,Answered,26,155.0,39.0,68.0,5.0,Yes,2
@@ -667,10 +667,10 @@ C0665,1/20/2026,11:21:27,912001445,Technical Problem,A11,Support,Phone,Answered,
 C0666,1/20/2026,18:11:02,912000831,Account Access,A06,Sales,Phone,Answered,40,211.0,17.0,47.0,4.0,No,0
 C0667,1/20/2026,11:06:42,912000227,Billing Issue,A03,Sales,Phone,Answered,92,232.0,80.0,53.0,3.0,Yes,2
 C0668,1/20/2026,16:05:56,912000302,Product Inquiry,A10,Sales,Phone,Answered,77,188.0,29.0,65.0,5.0,Yes,0
-C0669,1/20/2026,16:19:46,912001363,Refund Request,A09,Support,Phone,Abandoned,75,0.0,0.0,0.0,3.0,No,0
+C0669,1/20/2026,16:19:46,912001363,Refund Request,A09,Support,Phone,Abandoned,75,0.0,0.0,0.0,0.0,No,0
 C0670,1/20/2026,9:26:35,912000018,Technical Problem,A09,Support,Callback,Transferred,116,394.0,20.0,47.0,5.0,Yes,0
 C0671,1/20/2026,15:01:10,912000459,Billing Issue,A03,Support,Phone,Answered,153,483.0,29.0,67.0,3.0,No,2
-C0672,1/20/2026,15:04:10,912000503,Account Access,A09,Support,Phone,Abandoned,121,0.0,0.0,0.0,3.0,No,0
+C0672,1/20/2026,15:04:10,912000503,Account Access,A09,Support,Phone,Abandoned,121,0.0,0.0,0.0,0.0,No,0
 C0673,1/20/2026,16:13:11,912000662,Order Status,A10,Sales,Phone,Answered,101,271.0,63.0,52.0,4.0,Yes,0
 C0674,1/20/2026,10:45:17,912001271,Subscription Change,A01,Support,Phone,Answered,107,290.0,23.0,37.0,4.0,Yes,1
 C0675,1/20/2026,16:15:52,912000247,Product Inquiry,A11,Sales,Phone,Answered,48,234.0,46.0,25.0,3.0,No,2
@@ -680,7 +680,7 @@ C0678,1/20/2026,16:51:54,912001130,Technical Problem,A04,Billing,Phone,Answered,
 C0679,1/20/2026,10:36:31,912001291,Complaint,A05,Billing,Phone,Answered,40,273.0,27.0,72.0,2.0,Yes,0
 C0680,1/20/2026,9:15:29,912000088,Technical Problem,A02,Billing,Callback,Answered,37,253.0,6.0,58.0,2.0,Yes,0
 C0681,1/21/2026,8:53:41,912000196,Billing Issue,A02,Billing,Phone,Answered,21,261.0,6.0,70.0,3.0,Yes,0
-C0682,1/21/2026,16:12:08,912000530,Account Access,A08,Support,Phone,Abandoned,129,0.0,0.0,0.0,3.0,No,0
+C0682,1/21/2026,16:12:08,912000530,Account Access,A08,Support,Phone,Abandoned,129,0.0,0.0,0.0,0.0,No,0
 C0683,1/21/2026,15:15:03,912000011,Account Access,A09,Support,Phone,Answered,175,291.0,18.0,54.0,4.0,Yes,0
 C0684,1/21/2026,10:58:14,912001429,Technical Problem,A03,Sales,Phone,Answered,45,238.0,19.0,51.0,2.0,Yes,1
 C0685,1/21/2026,19:22:04,912000283,Product Inquiry,A02,Support,Phone,Transferred,147,318.0,27.0,47.0,4.0,Yes,0
@@ -708,7 +708,7 @@ C0706,1/21/2026,16:43:08,912001451,Technical Problem,A10,Support,Phone,Transferr
 C0707,1/21/2026,8:41:03,912000252,Order Status,A09,Support,Phone,Answered,179,306.0,42.0,44.0,1.0,Yes,0
 C0708,1/21/2026,14:29:42,912001116,Complaint,A11,Sales,Phone,Answered,62,259.0,18.0,25.0,5.0,Yes,0
 C0709,1/21/2026,14:27:12,912000275,Product Inquiry,A06,Support,Phone,Transferred,132,334.0,65.0,27.0,2.0,Yes,0
-C0710,1/21/2026,15:40:13,912000750,Product Inquiry,A10,Support,Phone,Abandoned,112,0.0,0.0,0.0,3.0,No,0
+C0710,1/21/2026,15:40:13,912000750,Product Inquiry,A10,Support,Phone,Abandoned,112,0.0,0.0,0.0,0.0,No,0
 C0711,1/21/2026,14:27:30,912000985,Billing Issue,A01,Sales,Phone,Transferred,53,248.0,39.0,36.0,2.0,Yes,0
 C0712,1/21/2026,14:19:55,912000852,Billing Issue,A09,Support,Callback,Answered,103,327.0,11.0,25.0,5.0,Yes,1
 C0713,1/22/2026,11:12:22,912000496,Refund Request,A09,Billing,Phone,Answered,40,249.0,60.0,42.0,5.0,Yes,1
@@ -724,16 +724,16 @@ C0722,1/22/2026,10:23:53,912000471,Billing Issue,A10,Billing,Callback,Answered,6
 C0723,1/22/2026,17:51:59,912000651,Order Status,A11,Support,Phone,Answered,163,324.0,56.0,40.0,2.0,Yes,0
 C0724,1/22/2026,17:32:07,912000371,Account Access,A11,Support,Phone,Transferred,177,421.0,25.0,40.0,3.0,Yes,0
 C0725,1/22/2026,16:37:09,912000444,Order Status,A02,Sales,Phone,Answered,11,173.0,63.0,60.0,3.0,Yes,0
-C0726,1/22/2026,18:19:12,912000109,Refund Request,A07,Support,Phone,Abandoned,165,0.0,0.0,0.0,3.0,No,0
+C0726,1/22/2026,18:19:12,912000109,Refund Request,A07,Support,Phone,Abandoned,165,0.0,0.0,0.0,0.0,No,0
 C0727,1/22/2026,11:59:09,912001412,Billing Issue,A10,Support,Phone,Transferred,108,517.0,20.0,26.0,2.0,Yes,0
 C0728,1/22/2026,9:54:23,912001239,Billing Issue,A02,Billing,Phone,Answered,22,212.0,14.0,51.0,4.0,Yes,2
 C0729,1/22/2026,14:20:40,912000013,Subscription Change,A03,Billing,Callback,Answered,73,232.0,9.0,27.0,4.0,No,2
 C0730,1/22/2026,16:34:00,912000350,Billing Issue,A02,Sales,Phone,Answered,11,277.0,7.0,53.0,5.0,Yes,0
-C0731,1/22/2026,9:13:01,912001324,Product Inquiry,A12,Support,Phone,Abandoned,104,0.0,0.0,0.0,3.0,No,0
+C0731,1/22/2026,9:13:01,912001324,Product Inquiry,A12,Support,Phone,Abandoned,104,0.0,0.0,0.0,0.0,No,0
 C0732,1/22/2026,11:12:05,912000519,Technical Problem,A05,Support,Phone,Answered,173,406.0,60.0,52.0,2.0,No,2
 C0733,1/22/2026,10:54:56,912000863,Billing Issue,A02,Support,Callback,Answered,168,430.0,44.0,30.0,3.0,No,1
 C0734,1/22/2026,18:27:38,912000380,Billing Issue,A10,Support,Callback,Answered,142,331.0,77.0,42.0,1.0,Yes,0
-C0735,1/22/2026,10:02:32,912000678,Technical Problem,A10,Sales,Phone,Abandoned,77,0.0,0.0,0.0,3.0,No,0
+C0735,1/22/2026,10:02:32,912000678,Technical Problem,A10,Sales,Phone,Abandoned,77,0.0,0.0,0.0,0.0,No,0
 C0736,1/22/2026,12:01:07,912001209,Product Inquiry,A03,Sales,Phone,Answered,30,235.0,52.0,29.0,4.0,Yes,2
 C0737,1/22/2026,8:21:13,912000546,Technical Problem,A04,Support,Phone,Answered,138,434.0,32.0,53.0,4.0,Yes,0
 C0738,1/22/2026,19:51:55,912000356,Technical Problem,A11,Support,Phone,Answered,166,391.0,45.0,72.0,4.0,Yes,0
@@ -745,7 +745,7 @@ C0743,1/22/2026,10:57:51,912000701,Account Access,A01,Support,Callback,Transferr
 C0744,1/22/2026,16:50:51,912001021,Product Inquiry,A03,Support,Phone,Answered,99,361.0,23.0,68.0,5.0,No,1
 C0745,1/23/2026,16:42:07,912000960,Billing Issue,A08,Support,Phone,Answered,125,477.0,66.0,34.0,4.0,No,0
 C0746,1/23/2026,12:53:55,912001125,Order Status,A04,Sales,Phone,Answered,39,155.0,32.0,20.0,4.0,Yes,0
-C0747,1/23/2026,15:21:13,912000249,Billing Issue,A09,Billing,Phone,Abandoned,59,0.0,0.0,0.0,3.0,No,0
+C0747,1/23/2026,15:21:13,912000249,Billing Issue,A09,Billing,Phone,Abandoned,59,0.0,0.0,0.0,0.0,No,0
 C0748,1/23/2026,16:41:09,912001232,Billing Issue,A03,Billing,Phone,Answered,88,217.0,70.0,32.0,3.0,Yes,2
 C0749,1/23/2026,10:19:55,912001052,Technical Problem,A08,Support,Phone,Transferred,178,341.0,7.0,49.0,4.0,Yes,0
 C0750,1/23/2026,14:16:07,912001220,Billing Issue,A07,Billing,Phone,Answered,96,360.0,47.0,23.0,3.0,Yes,0
@@ -764,7 +764,7 @@ C0762,1/23/2026,11:37:07,912001284,Product Inquiry,A07,Sales,Phone,Answered,73,2
 C0763,1/23/2026,15:05:45,912001180,Refund Request,A04,Sales,Callback,Answered,80,214.0,33.0,22.0,5.0,Yes,0
 C0764,1/23/2026,16:27:25,912000775,Order Status,A05,Billing,Phone,Transferred,59,182.0,77.0,47.0,4.0,Yes,0
 C0765,1/23/2026,16:12:16,912000961,Account Access,A05,Sales,Phone,Answered,29,285.0,64.0,54.0,5.0,No,0
-C0766,1/23/2026,9:33:28,912001010,Product Inquiry,A11,Support,Phone,Abandoned,129,0.0,0.0,0.0,3.0,No,0
+C0766,1/23/2026,9:33:28,912001010,Product Inquiry,A11,Support,Phone,Abandoned,129,0.0,0.0,0.0,0.0,No,0
 C0767,1/23/2026,12:29:26,912000621,Refund Request,A09,Billing,Phone,Answered,73,171.0,22.0,59.0,4.0,No,1
 C0768,1/23/2026,14:39:34,912000172,Account Access,A01,Billing,Callback,Answered,70,176.0,56.0,62.0,5.0,No,0
 C0769,1/23/2026,15:03:05,912000378,Product Inquiry,A11,Sales,Callback,Answered,48,164.0,42.0,56.0,2.0,Yes,0
@@ -793,7 +793,7 @@ C0791,1/24/2026,12:21:27,912001112,Billing Issue,A02,Billing,Phone,Answered,49,2
 C0792,1/24/2026,11:03:04,912000359,Complaint,A05,Sales,Phone,Answered,32,294.0,36.0,38.0,5.0,Yes,0
 C0793,1/24/2026,16:04:16,912000054,Technical Problem,A12,Billing,Phone,Answered,82,216.0,43.0,43.0,4.0,Yes,1
 C0794,1/24/2026,15:17:20,912001408,Refund Request,A01,Support,Phone,Answered,122,460.0,67.0,37.0,4.0,No,0
-C0795,1/24/2026,15:19:47,912000768,Technical Problem,A12,Support,Phone,Abandoned,99,0.0,0.0,0.0,3.0,No,0
+C0795,1/24/2026,15:19:47,912000768,Technical Problem,A12,Support,Phone,Abandoned,99,0.0,0.0,0.0,0.0,No,0
 C0796,1/24/2026,19:44:28,912001147,Technical Problem,A02,Support,Phone,Answered,177,288.0,39.0,37.0,5.0,Yes,0
 C0797,1/24/2026,8:54:39,912001186,Refund Request,A07,Support,Phone,Answered,92,460.0,28.0,62.0,3.0,Yes,0
 C0798,1/24/2026,12:01:58,912000084,Technical Problem,A05,Support,Callback,Answered,166,287.0,48.0,66.0,3.0,Yes,1
@@ -804,15 +804,15 @@ C0805,1/24/2026,18:54:22,912000346,Technical Problem,A04,Support,Phone,Answered,
 C0806,1/24/2026,17:43:26,912001411,Subscription Change,A05,Sales,Phone,Answered,30,295.0,51.0,41.0,4.0,No,2
 C0807,1/24/2026,19:18:39,912000466,Complaint,A05,Sales,Phone,Transferred,68,291.0,8.0,26.0,4.0,No,0
 C0808,1/24/2026,17:32:50,912000217,Subscription Change,A04,Support,Phone,Answered,155,448.0,24.0,44.0,5.0,Yes,1
-C0809,1/25/2026,19:14:36,912000336,Technical Problem,A09,Support,Phone,Abandoned,138,0.0,0.0,0.0,3.0,No,0
+C0809,1/25/2026,19:14:36,912000336,Technical Problem,A09,Support,Phone,Abandoned,138,0.0,0.0,0.0,0.0,No,0
 C0810,1/25/2026,17:54:56,912001470,Complaint,A08,Support,Phone,Answered,160,361.0,39.0,32.0,2.0,Yes,1
 C0811,1/25/2026,11:49:23,912000267,Refund Request,A02,Sales,Phone,Answered,38,244.0,51.0,25.0,5.0,Yes,0
-C0812,1/25/2026,16:38:14,912001440,Order Status,A10,Support,Phone,Abandoned,113,0.0,0.0,0.0,3.0,No,0
+C0812,1/25/2026,16:38:14,912001440,Order Status,A10,Support,Phone,Abandoned,113,0.0,0.0,0.0,0.0,No,0
 C0813,1/25/2026,11:58:26,912001370,Refund Request,A10,Support,Phone,Answered,126,360.0,20.0,25.0,2.0,Yes,0
 C0814,1/25/2026,15:56:49,912000473,Account Access,A08,Sales,Phone,Answered,40,207.0,75.0,65.0,3.0,Yes,1
 C0815,1/25/2026,8:27:01,912001276,Billing Issue,A03,Support,Callback,Answered,159,511.0,59.0,42.0,2.0,No,0
 C0816,1/25/2026,11:21:57,912001268,Billing Issue,A10,Billing,Phone,Answered,37,254.0,50.0,48.0,5.0,Yes,1
-C0817,1/25/2026,14:48:30,912000659,Technical Problem,A12,Support,Phone,Abandoned,200,0.0,0.0,0.0,3.0,No,0
+C0817,1/25/2026,14:48:30,912000659,Technical Problem,A12,Support,Phone,Abandoned,200,0.0,0.0,0.0,0.0,No,0
 C0818,1/25/2026,9:57:00,912001381,Subscription Change,A11,Support,Phone,Answered,111,392.0,27.0,52.0,4.0,Yes,1
 C0819,1/25/2026,11:31:21,912001450,Product Inquiry,A09,Sales,Phone,Answered,64,249.0,41.0,40.0,5.0,Yes,0
 C0820,1/25/2026,8:47:56,912001061,Technical Problem,A09,Billing,Phone,Answered,60,172.0,49.0,38.0,4.0,Yes,0
@@ -825,15 +825,15 @@ C0826,1/25/2026,16:15:08,912000638,Technical Problem,A04,Support,Callback,Answer
 C0827,1/25/2026,16:05:33,912001362,Billing Issue,A01,Billing,Phone,Answered,82,231.0,31.0,65.0,3.0,Yes,0
 C0828,1/25/2026,14:37:15,912000479,Technical Problem,A11,Support,Phone,Transferred,108,495.0,34.0,38.0,3.0,Yes,0
 C0829,1/25/2026,16:34:30,912000170,Order Status,A05,Sales,Phone,Answered,38,223.0,36.0,62.0,5.0,Yes,0
-C0830,1/25/2026,16:22:44,912001375,Technical Problem,A08,Support,Phone,Abandoned,205,0.0,0.0,0.0,3.0,No,0
-C0831,1/25/2026,16:43:15,912000415,Billing Issue,A04,Sales,Phone,Abandoned,83,0.0,0.0,0.0,3.0,No,0
+C0830,1/25/2026,16:22:44,912001375,Technical Problem,A08,Support,Phone,Abandoned,205,0.0,0.0,0.0,0.0,No,0
+C0831,1/25/2026,16:43:15,912000415,Billing Issue,A04,Sales,Phone,Abandoned,83,0.0,0.0,0.0,0.0,No,0
 C0832,1/25/2026,9:49:20,912001296,Account Access,A07,Sales,Phone,Answered,59,292.0,39.0,51.0,5.0,Yes,1
-C0833,1/25/2026,11:26:14,912000696,Technical Problem,A04,Support,Phone,Abandoned,113,0.0,0.0,0.0,3.0,No,0
+C0833,1/25/2026,11:26:14,912000696,Technical Problem,A04,Support,Phone,Abandoned,113,0.0,0.0,0.0,0.0,No,0
 C0834,1/25/2026,16:08:38,912000685,Complaint,A01,Support,Callback,Answered,160,365.0,50.0,69.0,1.0,Yes,1
 C0835,1/25/2026,10:34:12,912000345,Account Access,A07,Billing,Callback,Answered,61,334.0,32.0,55.0,2.0,No,1
 C0836,1/25/2026,19:06:32,912000864,Technical Problem,A03,Support,Phone,Answered,90,441.0,36.0,22.0,4.0,Yes,1
 C0837,1/25/2026,16:08:52,912000030,Technical Problem,A02,Support,Phone,Answered,134,464.0,58.0,21.0,3.0,No,0
-C0838,1/25/2026,10:47:37,912001262,Refund Request,A10,Billing,Phone,Abandoned,84,0.0,0.0,0.0,3.0,No,0
+C0838,1/25/2026,10:47:37,912001262,Refund Request,A10,Billing,Phone,Abandoned,84,0.0,0.0,0.0,0.0,No,0
 C0839,1/25/2026,15:01:19,912000447,Account Access,A05,Sales,Phone,Transferred,46,260.0,53.0,38.0,4.0,Yes,0
 C0840,1/25/2026,11:18:58,912000280,Complaint,A07,Support,Phone,Answered,166,507.0,74.0,65.0,5.0,Yes,0
 C0841,1/26/2026,14:14:28,912001076,Order Status,A11,Support,Phone,Answered,88,487.0,15.0,26.0,5.0,Yes,0
@@ -853,14 +853,14 @@ C0854,1/26/2026,15:56:38,912000361,Order Status,A11,Billing,Callback,Answered,75
 C0855,1/26/2026,18:41:22,912001391,Order Status,A08,Sales,Callback,Answered,65,248.0,32.0,59.0,5.0,No,0
 C0856,1/26/2026,14:11:59,912001172,Account Access,A08,Support,Phone,Answered,104,430.0,44.0,41.0,2.0,Yes,0
 C0857,1/26/2026,18:38:17,912001046,Product Inquiry,A08,Sales,Phone,Answered,86,204.0,40.0,60.0,2.0,Yes,0
-C0858,1/26/2026,16:30:38,912000963,Technical Problem,A08,Support,Phone,Abandoned,186,0.0,0.0,0.0,3.0,No,0
+C0858,1/26/2026,16:30:38,912000963,Technical Problem,A08,Support,Phone,Abandoned,186,0.0,0.0,0.0,0.0,No,0
 C0859,1/26/2026,15:06:02,912001303,Order Status,A12,Support,Phone,Answered,179,502.0,21.0,25.0,1.0,No,0
 C0860,1/26/2026,16:03:20,912000021,Order Status,A04,Sales,Phone,Answered,67,225.0,45.0,65.0,5.0,No,0
 C0861,1/26/2026,14:00:42,912001387,Technical Problem,A11,Support,Callback,Answered,94,491.0,69.0,29.0,3.0,Yes,1
-C0862,1/26/2026,11:12:44,912000599,Refund Request,A12,Support,Phone,Abandoned,89,0.0,0.0,0.0,3.0,No,0
+C0862,1/26/2026,11:12:44,912000599,Refund Request,A12,Support,Phone,Abandoned,89,0.0,0.0,0.0,0.0,No,0
 C0863,1/26/2026,11:22:07,912001236,Product Inquiry,A12,Support,Phone,Answered,141,309.0,16.0,31.0,3.0,Yes,1
 C0864,1/26/2026,19:49:10,912000399,Product Inquiry,A06,Billing,Phone,Answered,51,199.0,29.0,67.0,2.0,Yes,1
-C0865,1/26/2026,16:11:17,912001242,Account Access,A04,Sales,Phone,Abandoned,43,0.0,0.0,0.0,3.0,No,0
+C0865,1/26/2026,16:11:17,912001242,Account Access,A04,Sales,Phone,Abandoned,43,0.0,0.0,0.0,0.0,No,0
 C0866,1/26/2026,10:18:16,912000853,Subscription Change,A08,Support,Phone,Answered,137,477.0,71.0,48.0,2.0,Yes,1
 C0867,1/26/2026,19:37:24,912000212,Order Status,A01,Sales,Phone,Answered,86,213.0,31.0,41.0,5.0,Yes,0
 C0868,1/26/2026,17:05:32,912000064,Technical Problem,A08,Billing,Phone,Answered,60,244.0,28.0,50.0,4.0,Yes,0
@@ -876,8 +876,8 @@ C0877,1/27/2026,8:38:48,912000724,Product Inquiry,A04,Support,Phone,Answered,105
 C0878,1/27/2026,10:19:24,912000157,Account Access,A05,Support,Phone,Transferred,123,325.0,25.0,45.0,3.0,No,0
 C0879,1/27/2026,9:43:46,912000711,Product Inquiry,A01,Sales,Callback,Answered,18,287.0,69.0,44.0,5.0,Yes,0
 C0880,1/27/2026,16:27:49,912001027,Technical Problem,A12,Sales,Phone,Answered,83,255.0,69.0,43.0,5.0,Yes,1
-C0881,1/27/2026,19:07:50,912001049,Order Status,A07,Sales,Phone,Abandoned,29,0.0,0.0,0.0,3.0,No,0
-C0882,1/27/2026,8:59:45,912001202,Order Status,A10,Support,Phone,Abandoned,151,0.0,0.0,0.0,3.0,No,0
+C0881,1/27/2026,19:07:50,912001049,Order Status,A07,Sales,Phone,Abandoned,29,0.0,0.0,0.0,0.0,No,0
+C0882,1/27/2026,8:59:45,912001202,Order Status,A10,Support,Phone,Abandoned,151,0.0,0.0,0.0,0.0,No,0
 C0883,1/27/2026,8:18:02,912001407,Technical Problem,A06,Sales,Phone,Answered,48,234.0,37.0,47.0,5.0,Yes,0
 C0884,1/27/2026,15:11:18,912000083,Account Access,A06,Support,Phone,Answered,74,432.0,19.0,42.0,3.0,Yes,1
 C0885,1/27/2026,10:34:06,912000554,Subscription Change,A08,Sales,Phone,Answered,48,257.0,36.0,72.0,5.0,No,1
@@ -916,19 +916,19 @@ C0917,1/28/2026,10:48:27,912000914,Technical Problem,A08,Support,Phone,Answered,
 C0918,1/28/2026,15:20:49,912000737,Subscription Change,A05,Support,Phone,Transferred,96,426.0,24.0,40.0,4.0,No,0
 C0919,1/28/2026,18:39:42,912000835,Product Inquiry,A08,Sales,Callback,Answered,83,208.0,34.0,36.0,4.0,No,0
 C0920,1/28/2026,10:21:46,912000628,Account Access,A08,Support,Phone,Answered,164,475.0,58.0,20.0,5.0,Yes,1
-C0921,1/28/2026,12:51:08,912000454,Refund Request,A01,Billing,Phone,Abandoned,45,0.0,0.0,0.0,3.0,No,0
+C0921,1/28/2026,12:51:08,912000454,Refund Request,A01,Billing,Phone,Abandoned,45,0.0,0.0,0.0,0.0,No,0
 C0922,1/28/2026,10:45:16,912000913,Product Inquiry,A06,Sales,Phone,Answered,34,223.0,76.0,55.0,4.0,No,1
 C0923,1/28/2026,14:17:06,912000774,Subscription Change,A12,Sales,Phone,Answered,84,260.0,10.0,69.0,5.0,Yes,0
 C0924,1/28/2026,15:17:38,912000325,Account Access,A01,Support,Phone,Answered,105,417.0,52.0,48.0,2.0,Yes,1
 C0925,1/28/2026,17:20:49,912000610,Order Status,A03,Support,Callback,Answered,159,423.0,16.0,48.0,4.0,No,1
-C0926,1/28/2026,11:33:52,912000573,Product Inquiry,A02,Sales,Phone,Abandoned,54,0.0,0.0,0.0,3.0,No,0
+C0926,1/28/2026,11:33:52,912000573,Product Inquiry,A02,Sales,Phone,Abandoned,54,0.0,0.0,0.0,0.0,No,0
 C0927,1/28/2026,16:20:54,912001056,Refund Request,A12,Support,Phone,Transferred,113,399.0,34.0,49.0,5.0,Yes,0
 C0928,1/28/2026,11:38:47,912001119,Billing Issue,A11,Billing,Phone,Answered,70,263.0,67.0,71.0,5.0,Yes,0
 C0929,1/28/2026,15:01:36,912000938,Product Inquiry,A09,Support,Phone,Transferred,111,482.0,73.0,51.0,1.0,Yes,0
-C0930,1/28/2026,9:05:35,912000821,Order Status,A09,Billing,Phone,Abandoned,31,0.0,0.0,0.0,3.0,No,0
-C0931,1/28/2026,15:29:39,912000137,Product Inquiry,A02,Support,Phone,Abandoned,125,0.0,0.0,0.0,3.0,No,0
+C0930,1/28/2026,9:05:35,912000821,Order Status,A09,Billing,Phone,Abandoned,31,0.0,0.0,0.0,0.0,No,0
+C0931,1/28/2026,15:29:39,912000137,Product Inquiry,A02,Support,Phone,Abandoned,125,0.0,0.0,0.0,0.0,No,0
 C0932,1/28/2026,17:29:28,912000468,Technical Problem,A03,Billing,Callback,Answered,44,242.0,78.0,41.0,5.0,No,1
-C0933,1/28/2026,19:56:01,912001201,Product Inquiry,A10,Support,Phone,Abandoned,82,0.0,0.0,0.0,3.0,No,0
+C0933,1/28/2026,19:56:01,912001201,Product Inquiry,A10,Support,Phone,Abandoned,82,0.0,0.0,0.0,0.0,No,0
 C0934,1/28/2026,10:27:09,912000869,Billing Issue,A11,Sales,Phone,Answered,44,257.0,30.0,69.0,5.0,No,1
 C0935,1/28/2026,16:36:09,912001482,Order Status,A05,Sales,Phone,Answered,11,276.0,10.0,69.0,2.0,Yes,0
 C0936,1/28/2026,18:59:14,912001067,Order Status,A03,Support,Phone,Answered,121,519.0,32.0,69.0,5.0,Yes,1
@@ -943,7 +943,7 @@ C0944,1/29/2026,15:10:06,912001392,Product Inquiry,A02,Sales,Callback,Answered,1
 C0945,1/29/2026,9:38:51,912000798,Account Access,A08,Support,Phone,Transferred,116,362.0,74.0,43.0,2.0,Yes,2
 C0946,1/29/2026,15:53:54,912000110,Account Access,A09,Support,Phone,Answered,88,337.0,15.0,67.0,5.0,Yes,0
 C0947,1/29/2026,9:14:16,912000907,Product Inquiry,A06,Sales,Phone,Answered,39,291.0,71.0,53.0,5.0,No,0
-C0948,1/29/2026,9:27:23,912001047,Order Status,A01,Support,Phone,Abandoned,172,0.0,0.0,0.0,3.0,No,0
+C0948,1/29/2026,9:27:23,912001047,Order Status,A01,Support,Phone,Abandoned,172,0.0,0.0,0.0,0.0,No,0
 C0949,1/29/2026,14:03:50,912000882,Technical Problem,A03,Sales,Phone,Answered,98,200.0,25.0,45.0,4.0,No,1
 C0950,1/29/2026,12:40:55,912000769,Billing Issue,A08,Billing,Phone,Transferred,107,193.0,74.0,48.0,5.0,Yes,0
 C0951,1/29/2026,18:21:57,912000915,Product Inquiry,A08,Sales,Phone,Answered,70,164.0,48.0,68.0,4.0,Yes,0
@@ -952,15 +952,15 @@ C0953,1/29/2026,18:55:32,912001454,Order Status,A09,Sales,Callback,Answered,63,1
 C0954,1/29/2026,10:55:33,912000672,Order Status,A06,Support,Callback,Answered,158,415.0,26.0,43.0,3.0,Yes,0
 C0955,1/29/2026,18:14:53,912000152,Subscription Change,A09,Billing,Phone,Transferred,74,269.0,30.0,37.0,4.0,No,0
 C0956,1/29/2026,14:33:26,912000250,Billing Issue,A03,Billing,Phone,Answered,68,169.0,37.0,65.0,5.0,No,1
-C0957,1/29/2026,16:04:03,912000410,Product Inquiry,A08,Billing,Phone,Abandoned,73,0.0,0.0,0.0,3.0,No,0
+C0957,1/29/2026,16:04:03,912000410,Product Inquiry,A08,Billing,Phone,Abandoned,73,0.0,0.0,0.0,0.0,No,0
 C0958,1/29/2026,17:41:26,912000507,Account Access,A06,Support,Phone,Answered,105,315.0,56.0,27.0,4.0,Yes,1
 C0959,1/29/2026,10:09:43,912001439,Account Access,A11,Sales,Phone,Answered,29,274.0,18.0,69.0,5.0,Yes,0
 C0960,1/29/2026,11:07:34,912000714,Technical Problem,A02,Support,Phone,Transferred,166,513.0,48.0,37.0,4.0,Yes,2
-C0961,1/29/2026,11:40:29,912001455,Refund Request,A12,Support,Phone,Abandoned,196,0.0,0.0,0.0,3.0,No,0
+C0961,1/29/2026,11:40:29,912001455,Refund Request,A12,Support,Phone,Abandoned,196,0.0,0.0,0.0,0.0,No,0
 C0962,1/29/2026,17:14:33,912000200,Product Inquiry,A10,Sales,Callback,Transferred,86,201.0,68.0,73.0,2.0,Yes,0
 C0963,1/29/2026,9:49:17,912000590,Account Access,A05,Billing,Phone,Answered,62,213.0,37.0,42.0,5.0,Yes,0
 C0964,1/29/2026,11:31:14,912001393,Account Access,A02,Support,Phone,Transferred,175,461.0,67.0,55.0,3.0,Yes,0
 C0965,1/29/2026,18:42:24,912001481,Account Access,A11,Sales,Phone,Transferred,46,164.0,20.0,68.0,5.0,Yes,0
-C0966,1/29/2026,16:52:25,912000425,Technical Problem,A11,Support,Phone,Abandoned,179,0.0,0.0,0.0,3.0,No,0
+C0966,1/29/2026,16:52:25,912000425,Technical Problem,A11,Support,Phone,Abandoned,179,0.0,0.0,0.0,0.0,No,0
 C0967,1/29/2026,15:55:33,912001073,Complaint,A11,Sales,Phone,Answered,37,146.0,32.0,56.0,4.0,Yes,0
 C0968,1/29/2026,11:26:51,912000075,Billing Issue,A05,Sales,Phone,Answered,53,228.0,50.0,35.0,4.0,No,0
